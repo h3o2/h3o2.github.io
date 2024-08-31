@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Socomdo</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="image/png" href="./images/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="homepage">
-      <header>
-        <nav class="home">
-          <button class="navbutton">Home</button
-          ><button class="navbutton">About</button
-          ><!--<button 
-      class="navbutton">new</button><button 
-      class="navbutton">new</button><button 
-      class="navbutton">new</button>-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+		<nav class="navbar">
+            <!--<div class="navbar-brand">
+                <a href="#">Gallery</a>
+            </div>-->
+            <ul class="navbar-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-      </header>
+        <h1>Socomdo</h1>
+    </header>
 
-      <div style="width=100px;" class="main-cont">
-      
-        <img src="images\unicorn.png" width="100%" />
-
-        
-      </div>
-
-      <!--<p style="background-color: green; height: 200px; width: 200"></p>
-    <p style="background-color: green; height: 200px; width: 200"></p>
-    <p style="background-color: green; height: 200px; width: 200"></p>
-    <p style="background-color: green; height: 200px; width: 200"></p>
-    <p id="loverlay" style="height: 400px; width: 400px"></p>-->
-
-      <footer>Socomdo 2024</footer>
+    <main>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/unicorn.png" alt="AI Generated Image 1">
+            </div>           
+            <!-- Add more images as needed -->
+        </div>
+    </main>
+	
+	<!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="fullImage">
+        <div id="caption"></div>
     </div>
-  </body>
-  <script>
-    
-  </script>
+
+    <footer>
+        <p>&copy; 2024 Socomdo. All rights reserved.</p>
+    </footer>
+	
+	<script src="script.js"></script>
+</body>
 </html>
