@@ -79,7 +79,7 @@ main {
 }
 
 /* Responsive navbar */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .navbar-links {
         position: absolute;
         right: 0;
@@ -106,7 +106,7 @@ main {
     .navbar-toggle {
         display: flex;
     }
-}
+}**/
 
 .gallery {
     display: grid;
