@@ -195,3 +195,45 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.website-tutorial{
+    
+        max-width: 800px;
+        margin: auto;
+        padding: 2rem;
+        box-sizing: border-box;
+        font-size: 16px;
+        margin-bottom: 100px;
+      
+}
+
+.website-tutorial p, ol {
+    line-height: 2.0;
+    margin-bottom: 30px;
+  }
+
+#first-step {
+    margin-bottom: 30px;
+}
+
+.website-tutorial ol {
+    margin-left: 30px;
+}
+
+.this-list > li::marker {
+    font-weight: bold; /* Make the list numbers and markers bold */
+    font-size: large;
+  }
+
+.videos-1 {
+    display: flex;
+}
+
+.videos-1 div{
+    margin: 2px;
+}
+
+video {
+    margin: 2px;
+    max-width: 100%;
+}
