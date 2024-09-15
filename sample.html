@@ -23,74 +23,27 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <a id="logo1" href="/index.html"><h1>Socomdo</h1></a>
-        <!--<div class="navbar-brand">
-                <a href="#">Gallery</a>
-            </div>-->
-        <ul class="navbar-links">
-          <li>
-            <form
-              action="https://www.paypal.com/donate"
-              method="post"
-              target="_top"
-            >
-              <input
-                type="hidden"
-                name="hosted_button_id"
-                value="UZ83T3UFAZLLC"
-              />
-              <input
-                type="image"
-                src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                border="0"
-                name="submit"
-                title="PayPal - The safer, easier way to pay online!"
-                alt="Donate with PayPal button"
-              />
-              <img
-                alt=""
-                border="0"
-                src="https://www.paypal.com/en_FI/i/scr/pixel.gif"
-                width="1"
-                height="1"
-              />
-            </form>
-          </li>
-          <li><a href="/index.html">Home</a></li>
-          <li>
-            <details>
-              <summary>Tutorials</summary>
-              <a href="/website.html">Website tutorial</a><br />
-              <a href="/file-extension.html">File extensions</a>
-            </details>
-          </li>
-          <li>
-            <details>
-              <summary>Games</summary>
-              <a href="/html-tags.html">Learn HTML Tags</a><br />
-            </details>
-          </li>
-          <li><a href="/website-code-generator.html">Generator</a></li>
-          <li><a href="/help.html">Ask help</a></li>
-        </ul>
-        <div class="navbar-toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
-    </header>
+    <div id="navbar"></div>
 
     <main class="website-tutorial">
       <h1></h1>
     </main>
 
-    <footer>
-      <p>&copy; 2024 Socomdo. All rights reserved.</p>
-    </footer>
+    <div id="footer"></div>
 
-    <!--<script src="script.js"></script>-->
+    <script>
+      // Use JavaScript to load the navbar into the #navbar div
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+      // Use JavaScript to load the footer into the #footer div
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
   </body>
 </html>
