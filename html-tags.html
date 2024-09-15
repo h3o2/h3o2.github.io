@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q8BPJCB075"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Q8BPJCB075");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Quick tutorial on how to show missing file extensions .htlm .css .js .txt ..."
+      content="Play our fun and interactive HTML learning game! Master 50+ essential HTML tags, from links to forms, tables to media embeds. Perfect for beginners and web developers looking to improve their HTML skills. Start learning now!"
     />
-    <title>Missing File Extension</title>
+    <title>
+      Learn HTML Tags with Interactive Game - Master HTML Step by Step
+    </title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
@@ -73,35 +89,41 @@
     </header>
 
     <main class="website-tutorial">
-      <h1>Missing file extensions FIX (Windows 11)</h1>
+      <div class="container">
+        <h1>Learn HTML Tags Game</h1>
+        <div id="game-area">
+          <div class="instruction-box">
+            <h2>Instruction:</h2>
+            <p id="instruction">
+              Let's start by adding a heading tag. Use &lt;h1&gt; to create a
+              heading.
+            </p>
+          </div>
 
-      <p>
-        File extensions are essential for identifying different types of files,
-        such as images (.jpg), documents (.docx), and videos (.mp4). However, by
-        default, some versions of the Windows operating system hide these file
-        extensions from view. In this tutorial, we will show you how to reveal
-        or display file extensions in filenames on your Windows computer.
-      </p>
-      <h2>Step 1: Open File Explorer and click on "View"</h2>
-      <h2>Step 2: Click on "Show"</h2>
-      <h2>Step 3: Click on "File name extensions"</h2>
-      <video controls src="/videos/extensions.mp4" type="video/mp4"></video>
-      <p>
-        Your settings will be applied, and you should now see file extensions
-        for all known file types.
-      </p>
-      <p>
-        By following these simple steps, you can easily reveal or show file
-        extensions in filenames on your Windows computer. This feature is
-        helpful when managing different file types and ensuring that you are
-        opening the correct files with the appropriate software.
-      </p>
+          <div class="game-box">
+            <textarea
+              id="html-input"
+              placeholder="Type your HTML here..."
+            ></textarea>
+            <button id="check-button">Check Code</button>
+            <button id="next-button" style="display: none">Next Level</button>
+          </div>
+          <div id="message-box">
+            <p id="message"></p>
+          </div>
+
+          <div class="output-box">
+            <h3>Your Output:</h3>
+            <iframe id="html-output"></iframe>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
       <p>&copy; 2024 Socomdo. All rights reserved.</p>
     </footer>
 
-    <!--<script src="script.js"></script>-->
+    <!--<script src="script2.js"></script>-->
   </body>
 </html>
