@@ -17,15 +17,21 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="META HERE" />
-    <title>TITLE HERE</title>
+    <meta
+      name="description"
+      content="Improve your web dev skills with our expert assistance! Have a question? Our team is here to help you succeed. Trust us for reliable, high-quality answers in website development."
+    />
+    <title>
+      Solve Your Website Dilemmas: Expert Tips & Solutions Tailored to Your
+      Needs!
+    </title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
     <header>
+      <h1>Socomdo</h1>
       <nav class="navbar">
-        <h1>Socomdo</h1>
         <!--<div class="navbar-brand">
                 <a href="#">Gallery</a>
             </div>-->
@@ -67,6 +73,9 @@
               </details>
           </li>
           <li><a href="/help.html">Ask help</a></li>
+
+        
+</div>
         </ul>
         <div class="navbar-toggle" id="mobile-menu">
           <span class="bar"></span>
@@ -76,8 +85,21 @@
       </nav>
     </header>
 
-    <main class="website-tutorial">
-      <h1></h1>
+    <main class="help">
+      <h1>Ask help</h1>
+      <form action="https://docs.google.com/spreadsheets/d/e/2PACX-1vQYBr2cZem8VJP2VEiDfAbSp3I_9FuwVgl_0TtEzCYpt_XaSdlteypniNbeCFo7DEJIBHUk0QOLnD30/pubhtml" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea
+        ><br />
+
+        <button type="submit">Submit</button>
+      </form>
     </main>
 
     <footer>

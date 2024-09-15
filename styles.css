@@ -29,13 +29,8 @@ main {
 }
 
 
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
+
+
 
 .navbar-brand a {
     color: #fff;
@@ -237,4 +232,33 @@ footer {
 video {
     margin: 2px;
     max-width: 100%;
+}
+
+.help body {
+    font-family: Arial, sans-serif;
+}
+  
+.help label, input, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    border-radius: 10px;;
+}
+  
+.help button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+
+summary {
+    border: 1px solid white;
+    padding: 3px;
+    cursor: pointer;
 }
