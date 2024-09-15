@@ -280,3 +280,28 @@ pre code {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+.code-generator textarea {
+    width: 90%;
+    height: 150px;
+    margin-bottom: 10px;
+    font-family: monospace;
+  }
+
+.code-generator textarea[readonly] {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.code-generator button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.code-generator {
+    margin-bottom: 100px;
+}
