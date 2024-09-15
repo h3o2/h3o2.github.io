@@ -305,3 +305,8 @@ pre code {
 .code-generator {
     margin-bottom: 100px;
 }
+
+#logo1 {
+    color: white;
+    text-decoration: none;
+}
