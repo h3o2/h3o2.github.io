@@ -163,6 +163,7 @@ main {
     cursor: pointer;
     background-color: #ffffff;
     border-radius: 6px;
+    z-index: 9999;
   }
   
   .bar {
@@ -184,6 +185,7 @@ main {
       width: 100%;
       text-align: center;
       padding: 1rem 0;
+      z-index: 1000;
     }
   
     .navbar-toggle {
