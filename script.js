@@ -1,10 +1,10 @@
 // Navbar toggle for mobile view
-const mobileMenu = document.getElementById('mobile-menu');
-const navbarLinks = document.querySelector('.navbar-links');
+//const mobileMenu = document.getElementById('mobile-menu');
+//const navbarLinks = document.querySelector('.navbar-links');
 
-mobileMenu.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active');
-});
+//mobileMenu.addEventListener('click', () => {
+ //   navbarLinks.classList.toggle('active');
+//});
 
 // Get the modal
 var modal = document.getElementById("imageModal");

@@ -10,3 +10,10 @@ fetch("footer.html")
   .then((data) => {
     document.getElementById("footer").innerHTML = data;
   });
+
+  const mobileMenu = document.getElementById('mobile-menu');
+  const navbar = document.querySelector('.navbar-links');
+  
+  mobileMenu.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });  

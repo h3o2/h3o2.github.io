@@ -28,9 +28,29 @@ main {
     padding: 20px;
 }
 
+.navbar-links li:hover ul {
+    display: block;
+    z-index: 1000;
+}
+  
+.navbar-links ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 1rem;
+    list-style: none;
+}
+  
+.navbar-links ul a {
+    color: white;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+  
 
 
-
+/*
 
 .navbar-brand a {
     color: #fff;
@@ -59,7 +79,7 @@ main {
     color: #ddd;
 }
 
-/* Mobile menu toggle */
+/* Mobile menu toggle 
 .navbar-toggle {
     display: none;
     flex-direction: column;
@@ -102,7 +122,89 @@ main {
     .navbar-toggle {
         display: flex;
     }
+
+
+
+
+
+
+
+    
 }**/
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333; /* Change this to match your theme */
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin: 0 10px;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 6px;
+  }
+  
+  .bar {
+    border-radius: 3px;
+    height: 4px;
+    width: 25px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .navbar-toggle {
+      display: flex;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  }
+
+  .paypal-button {
+    background: none;
+    border: none;
+  }
+  
+  .paypal-button img {
+    height: 25px; /* Adjust the size as needed */
+  }
+  
+  
 
 .gallery {
     display: grid;
