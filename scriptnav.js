@@ -15,5 +15,6 @@ fetch("footer.html")
   const navbar = document.querySelector('.navbar-links');
   
   mobileMenu.addEventListener('click', () => {
+    console.log("Button clicked!"); // This line will show if the button click works
     navbar.classList.toggle('active');
   });  
