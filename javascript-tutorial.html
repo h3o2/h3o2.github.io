@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q8BPJCB075"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Q8BPJCB075");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="javascript" />
+    <title>javascript</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <main class="website-tutorial">
+
+
+
+
+      <h1>Beginner Tutorial: JavaScript Essentials for HTML</h1>
+
+      
+      <h2>1. Introduction</h2>
+    <p>
+      JavaScript adds interactivity to your HTML pages. In this tutorial, we'll cover:
+      <ul>
+        <li>JavaScript syntax basics</li>
+        <li>Adding JavaScript to HTML</li>
+        <li>Using event listeners</li>
+        <li>Manipulating the DOM (Document Object Model)</li>
+        <li>Integrating CSS for styling</li>
+      </ul>
+    </p>
+
+
+      <h2>2. Setting Up Your HTML Document</h2>
+      <p>
+      First, let’s create a basic HTML structure where we’ll add our JavaScript.
+    </p>
+      <p>HTML Structure (index.html):</p>
+      
+      <pre><code>&lt;!DOCTYPE html>
+&lt;html lang="en">
+  &lt;head>
+    &lt;meta charset="UTF-8">
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+    &lt;title>JavaScript Basics&lt;/title>
+    &lt;link rel="stylesheet" href="styles.css">
+  &lt;/head>
+  &lt;body>
+    &lt;h1>Welcome to JavaScript Basics!&lt;/h1>
+    &lt;button id="myButton">Click Me!&lt;/button>
+    &lt;p id="message">&lt;/p>
+      
+    &lt;!-- Link to JavaScript file --&gt;
+    &lt;script src="script.js">&lt;/script>
+  &lt;/body>
+&lt;/html>    </code></pre>
+      
+      <p>CSS Styling (styles.css):</p>
+
+<pre><code>/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}</code></pre>
+      
+      <h2>3. JavaScript Syntax Basics</h2>
+      
+      <p>Let’s write some basic JavaScript to get started.</p>
+      
+      <p>JavaScript File (script.js):</p>
+      
+      <pre><code>// This is a single-line comment
+      
+/*
+    This is a multi-line comment
+    You can write multiple lines here
+*/
+
+// Variables
+let message = 'Hello, World!'; // Declare a variable with `let`
+const PI = 3.14; // Declare a constant with `const`
+
+// Functions
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+// Using variables and functions
+console.log(message); // Output to the console
+console.log(greet('JavaScript')); // Output: Hello, JavaScript!</code></pre>
+      
+      <h3>Explanation:</h3>
+
+      <h4>Variables</h4>
+      <p><code>let</code> allows you to declare variables that can be changed later, while <code>const</code> is for values that should not change.</p>
+      <pre><code>// Example of let
+let userName = 'John Doe'; // You can reassign this variable
+userName = 'Jane Doe';
+
+// Example of const
+const birthYear = 1990; // This value cannot be changed
+// birthYear = 1992; // This will throw an error
+</code></pre>
+  </section>
+
+  <section>
+      <h4>Functions</h4>
+      <p>Define reusable blocks of code with the <code>function</code> keyword.</p>
+      <pre><code>// Function declaration
+function greetUser(name) {
+  console.log('Hello, ' + name + '!');
+}
+
+// Calling the function
+greetUser('John'); // Outputs: Hello, John!
+</code></pre>
+  </section>
+
+  <section>
+      <h4>Comments</h4>
+      <p>Use <code>//</code> for single-line comments and <code>/* ... */</code> for multi-line comments.</p>
+<pre><code>// Single-line comment
+let age = 30; // This is a comment on the same line as a statement
+
+/*
+Multi-line comment:
+This is a block of text that
+spans multiple lines.
+*/
+let isAdult = age >= 18;
+</code></pre>
+
+    
+      <h2>4. Adding JavaScript to HTML</h2>
+      
+      To make your HTML interactive, you can add JavaScript using the `&lt;script>` tag.
+      
+      <p>Example of Adding a Script Directly in HTML:</p>
+      
+      <pre><code>&lt;script>
+  // Inline JavaScript
+  alert('Hello from JavaScript!');
+&lt;/script></code></pre>
+      
+      
+      <p>However, for better organization, use an external `.js` file, as shown in the HTML setup above.</p>
+      
+      <h2>5. Event Listeners</h2>
+      <p>
+      Event listeners allow you to execute JavaScript code when events occur, like button clicks.
+    </p>
+    <p>
+      Example (script.js):
+    </p>
+      <pre><code>// Select the button and paragraph elements
+const button = document.getElementById('myButton');
+const messageParagraph = document.getElementById('message');
+
+// Function to handle button click
+function handleClick() {
+    messageParagraph.textContent = 'Button clicked!'; // Update the paragraph text
+}
+
+// Add event listener to the button
+button.addEventListener('click', handleClick);</code></pre>
+      
+      <h3>Explanation:</h3>
+      <h4>getElementById:</h4> Selects elements by their ID.
+        <h4>addEventListener:</h4> Attaches an event handler to an element. In this case, it listens for a "click" event and executes the "handleClick" function.
+      
+      <h2>6. Manipulating the DOM</h2>
+      
+      <p>JavaScript can change the content and style of HTML elements dynamically.</p>
+      
+      <p>Example (script.js):</p>
+      
+<pre><code>// Function to change content and style
+function changeContentAndStyle() {
+    // Change the text content of the paragraph
+    messageParagraph.textContent = 'Content and style updated!';
+    
+    // Change the style of the paragraph
+    messageParagraph.style.color = 'red';
+    messageParagraph.style.fontSize = '24px';
+}
+
+// Add an event listener to the button to call the function
+button.addEventListener('click', changeContentAndStyle);</code></pre>
+      
+      <h3>Explanation:</h3>
+      <h4>textContent:</h4> <p>Changes the text inside an element.</p>
+      <h4>style:</h4> <p>Modifies the CSS styles of an element.</p>
+      
+      <h2>7. Putting It All Together</h2>
+      
+      <p>Here’s how you integrate everything in your script.js:</p>
+      
+<pre><code>// Select the button and paragraph elements
+const button = document.getElementById('myButton');
+const messageParagraph = document.getElementById('message');
+
+// Function to handle button click
+function handleClick() {
+    messageParagraph.textContent = 'Button clicked!'; // Update the paragraph text
+    messageParagraph.style.color = 'blue'; // Change text color
+    messageParagraph.style.fontSize = '20px'; // Change font size
+}
+
+// Add event listener to the button
+button.addEventListener('click', handleClick);</code></pre>
+      
+      <p>HTML (index.html):</p>
+      
+      <pre><code>&lt;!DOCTYPE html>
+&lt;html lang="en">
+  &lt;head>
+    &lt;meta charset="UTF-8">
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+    &lt;title>JavaScript Basics</title>
+    &lt;link rel="stylesheet" href="styles.css">
+  &lt;/head>
+  &lt;body>
+    &lt;h1>Welcome to JavaScript Basics!</h1>
+    &lt;button id="myButton">Click Me!</button>
+    &lt;p id="message"></p>
+
+    &lt;!-- Link to JavaScript file -->
+    &lt;script src="script.js"></script>
+  &lt;/body>
+&lt;/html></code></pre>
+      
+      
+      <p>CSS (styles.css):</p>
+      
+      <pre><code>body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}</code></pre>
+      
+      <h2>8. Practice Exercises</h2>
+      
+      <ol>
+      <li><strong>Change Button Text:</strong> Modify the button text when it is clicked.</li>
+      <li><strong>Add More Styles:</strong> Apply different styles to the paragraph based on user interactions.</li>
+      <li><strong>Create More Buttons:</strong> Add multiple buttons with different actions.</li>
+    </ol>
+
+      <h2>9. Conclusion</h2>
+      <p>
+      Congratulations! You’ve learned the basics of JavaScript syntax, event listeners, and DOM manipulation. Practice these concepts to build more interactive web pages and enhance your JavaScript skills.
+      </p>
+      <p>
+      Feel free to experiment with the code and try adding your own features. Happy coding!</p>
+
+
+
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="scriptnav.js"></script>
+  </body>
+</html>

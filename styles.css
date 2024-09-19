@@ -234,7 +234,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.website-tutorial ol {
+.website-tutorial ol, ul {
     margin-left: 30px;
 }
 
