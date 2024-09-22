@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q8BPJCB075"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Q8BPJCB075");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="META HERE" />
+    <title>TITLE HERE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <h1 style="text-align: center">World of Code Quests</h1>
+    <p style="text-align: center">
+      Select a country on the map to begin your quest!
+    </p>
+
+    <div id="map-and-tasks">
+      <!-- World Map Container -->
+      <div class="world-map-container">
+        <object
+          type="image/svg+xml"
+          data="worldmap.svg"
+          id="world-map"
+          aria-label="World Map"
+        >
+          <!-- Fallback content for non-SVG supporting browsers -->
+          Your browser does not support SVG.
+        </object>
+      </div>
+
+      <!-- Dropdown for tasks (hidden by default, will show on country click) -->
+
+      <div class="task-dropdown" id="task-dropdown">
+        <h2 id="country-name" style="text-align: center">Country</h2>
+        <h3 style="text-align: center">Choose a quest.</h3>
+        <ul id="task-list">
+          <!-- Task options will be added here dynamically -->
+        </ul>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="scriptnav.js"></script>
+    <script src="scriptworld.js"></script>
+  </body>
+</html>

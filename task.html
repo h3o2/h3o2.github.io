@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Challenge</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <h1 id="task-title" style="text-align: center;">Task Title</h1>
+    <p id="task-description" style="text-align: center;">Task description goes here...</p>
+
+    <div class="task-editor">
+      <h2 style="text-align: center;">Fix the Code</h2>
+
+      <!-- The text areas for HTML, CSS, and JavaScript go here -->
+      <div class="editor-container">
+        <div class="editor">
+          <h3>HTML</h3>
+          <textarea id="html-editor" rows="10"></textarea>
+        </div>
+
+        <div class="editor">
+          <h3>CSS</h3>
+          <textarea id="css-editor" rows="10"></textarea>
+        </div>
+
+        <div class="editor">
+          <h3>JavaScript</h3>
+          <textarea id="js-editor" rows="10"></textarea>
+        </div>
+      </div>
+
+      <div style="text-align: center;" class="actions">
+        <button id="run-code">Run Code</button>
+        <button id="reset-code">Reset Code</button>
+      </div>
+
+      <div class="preview-container">
+        <h3>Live Preview</h3>
+        <iframe id="preview-frame"></iframe>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="task.js"></script>
+    <script src="scriptnav.js"></script>
+  </body>
+</html>

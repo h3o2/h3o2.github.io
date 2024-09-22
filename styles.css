@@ -92,7 +92,7 @@ main {
     margin: 5px 4px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .navbar-links {
       display: none;
       flex-direction: column;
@@ -427,4 +427,120 @@ pre code {
 #message {
     font-size: 18px;
     font-weight: bold;
+}
+
+
+
+/* World Map Container */
+.world-map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* SVG map styling */
+#world-map {
+    width: 100%;
+    height: auto;
+}
+
+/* Country interaction */
+.country {
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+.country:hover {
+    fill: #ffcc00;
+}
+
+/* Dropdown menu styling */
+.task-dropdown {
+    display: none; /* Hidden by default */
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0px 50px 100px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#task-list li:last-child {
+    border-bottom: none;
+}
+
+#task-list li:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+#map-and-tasks {
+    display: flex;
+    width: 100vw;
+}
+
+/* Style for the editor container */
+.editor-container {
+    display: flex;              /* Enable flexbox */
+    gap: 20px;                  /* Space between fields */
+    justify-content: space-around;  /* Distribute space around the fields */
+    margin-bottom: 20px;        /* Add some margin below the editors */
+}
+
+/* Style for each individual editor */
+.editor {
+    flex: 1;                    /* Allow each editor to take equal width */
+    min-width: 200px;           /* Ensure a minimum width */
+}
+
+textarea {
+    width: 100%;                /* Make text areas take the full width of their containers */
+    height: 200px;              /* Set a default height */
+    padding: 10px;              /* Add padding inside the textarea */
+    box-sizing: border-box;     /* Include padding and borders in the width */
+    font-family: monospace;     /* Use monospace font for code */
+    border: 1px solid #ccc;     /* Border around text areas */
+    border-radius: 5px;         /* Rounded corners */
+    resize: vertical;           /* Allow vertical resizing */
+}
+
+/* Styling the preview frame */
+.preview-container {
+    margin-top: 20px;
+}
+
+#preview-frame {
+    width: 100%;                /* Full width of its container */
+    height: 300px;              /* Set height for the iframe */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons styling */
+.actions {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
