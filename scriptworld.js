@@ -50,6 +50,10 @@ document.addEventListener('click', (e) => {
     }
 });
 
+document.getElementById("close-dropdown-button").addEventListener("click", () => {
+    dropdown.style.display = 'none';
+})
+
 document.addEventListener('DOMContentLoaded', function () {
     const svgObject = document.getElementById('world-map');
 
