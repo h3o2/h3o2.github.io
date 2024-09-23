@@ -7221,6 +7221,8 @@
          id="g2882"
          style="display:inline"
          inkscape:label="World Countries">
+         
+        <a href="#" class="country" id="alaska" >
         <text
            id="text2886"
            style="font-variant:normal;font-weight:900;font-size:4.38800001px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7231,6 +7233,8 @@
              y="0"
              x="0 2.7863801 5.1646762 7.951056 10.719884 13.55892 16.345301 17.437912 18.995651 22.032148 24.800976 27.587357">ALASKA (USA)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="canada" >
         <text
            id="text2890"
            style="font-variant:normal;font-weight:900;font-size:7.39799976px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7241,6 +7245,8 @@
              y="0"
              x="0 4.7569141 9.4546442 14.7314 19.429131 24.1849">CANADA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="greenland" >
         <text
            id="text2896"
            style="font-variant:normal;font-weight:900;font-size:7.39799976px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7256,6 +7262,8 @@
              y="9.7571001"
              x="0.93400002 3.5602901 8.3911839 12.600646 17.816236 24.3144 29.012131 33.89481 38.681316">(DENMARK)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="usa" >
         <text
            id="text2900"
            style="font-variant:normal;font-weight:900;font-size:6.30600023px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7266,6 +7274,8 @@
              y="0"
              x="0 4.3637519 8.8094816 10.6004 14.150678 17.738792 21.856609 23.426804 27.40589 30.6238 34.352798 37.903076 41.491192 45.47028 47.04047 51.353775 54.979725 56.549919 60.55423 66.034142 69.622261 73.784218 75.663406 79.718163">UNITED STATES OF AMERICA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="australia" >
         <text
            id="text2904"
            style="font-variant:normal;font-weight:900;font-size:9.43200016px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7276,6 +7286,8 @@
              y="0"
              x="0 5.9091001 12.436044 18.387636 23.697851 29.922972 35.912292 41.024437 43.917198">AUSTRALIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="indonesia" >
         <text
            id="text2908"
            style="font-variant:normal;font-weight:900;font-size:9.43200016px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7286,6 +7298,8 @@
              y="0"
              x="0 2.8107359 9.4602957 15.619392 22.070881 28.72044 34.08725 40.038841 42.9389">INDONESIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="china" >
         <text
            id="text2912"
            style="font-variant:normal;font-weight:900;font-size:9.43200016px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7296,6 +7310,8 @@
              y="0"
              x="0 6.0647759 12.714336 15.525072 22.2551">CHINA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="kazkahstan" >
         <text
            id="text2916"
            style="font-variant:normal;font-weight:900;font-size:6.82999992px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7306,6 +7322,8 @@
              y="0"
              x="0 4.4190102 8.7560596 12.74478 17.16379 21.500839 26.31599 30.625719 34.106998 38.44405">KAZKAHSTAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="india" >
         <text
            id="text2920"
            style="font-variant:normal;font-weight:900;font-size:6.82999992px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7316,6 +7334,8 @@
              y="0"
              x="0 2.0353401 6.8504901 11.31048 13.4121">INDIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="russia" >
         <text
            id="text2924"
            style="font-variant:normal;font-weight:900;font-size:9.43200016px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7326,6 +7346,8 @@
              y="0"
              x="0 6.2251201 12.752064 18.703655 24.655249 27.557301">RUSSIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="mongolia" >
         <text
            id="text2928"
            style="font-variant:normal;font-weight:900;font-size:9.43200016px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7336,6 +7358,8 @@
              y="0"
              x="0 8.1964083 14.647896 21.297457 27.541439 33.992928 39.105072 41.993">MONGOLIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="adam-and-nicobar" >
         <text
            id="text2936"
            style="font-variant:normal;font-weight:900;font-size:1.27499998px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7356,6 +7380,8 @@
              y="3.3618"
              x="-3.1098001 -2.7298501 -1.925325 -1.234275 -0.42465001 0.47422501 1.3068 2.111325 2.4288001 2.8814249 3.261375 4.1602502 4.992825 5.3727751 6.1824002">ISLANDS (INDIA)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="sri-lanka" >
         <text
            id="text2942"
            style="font-variant:normal;font-weight:900;font-size:2.03600001px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7371,6 +7397,8 @@
              y="2.6858001"
              x="-1.6112 -0.50768799 0.78517199 2.220552 3.5378439">LANKA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="philippines" >
         <text
            id="text2946"
            style="font-variant:normal;font-weight:900;font-size:4.47800016px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7381,6 +7409,8 @@
              y="0"
              x="0 2.9375679 6.0945578 7.4290018 9.8560781 11.190522 14.12809 17.065659 18.400103 21.557093 24.105074">PHILIPPINES</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="japan" >
         <text
            id="text2950"
            style="font-variant:normal;font-weight:900;font-size:4.47800016px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7391,6 +7421,8 @@
              y="0"
              x="0 2.59724 5.4407701 7.9415002 10.78503">JAPAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="north-korea" >
         <text
            id="text2956"
            style="font-variant:normal;font-weight:900;font-size:2.42600012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7406,6 +7438,8 @@
              y="3.1991999"
              x="0.1372 1.706822 3.3662059 4.9673662 6.3477602">KOREA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="south-korea" >
         <text
            id="text2962"
            style="font-variant:normal;font-weight:900;font-size:2.42600012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7421,6 +7455,8 @@
              y="3.1989"
              x="0.1154 1.685022 3.3444059 4.9455662 6.3259602">KOREA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="guam" >
         <text
            id="text2966"
            style="font-variant:normal;font-weight:900;font-size:3.03999996px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7431,6 +7467,8 @@
              y="0"
              x="0 2.01248 4.1161599 6.0465598">GUAM</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="mexico" >
         <text
            id="text2970"
            style="font-variant:normal;font-weight:900;font-size:6.30600023px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7441,6 +7479,8 @@
              y="0"
              x="0 5.4799142 9.0680285 13.091256 14.970444 19.025202">MEXICO</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="the-bahamas" >
         <text
            id="text2974"
            style="font-variant:normal;font-weight:900;font-size:1.847px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7451,6 +7491,8 @@
              y="0"
              x="0 1.039861 2.341996 3.3929391 3.8528421 5.0386162 6.2114611 7.5135961 8.6864414 10.291484 11.464329">THE BAHAMAS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="cuba" >
         <text
            id="text2978"
            style="font-variant:normal;font-weight:900;font-size:3.34599996px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7461,6 +7503,8 @@
              y="0"
              x="0 2.1514781 4.4669099 6.6150422">CUBA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="jamaica" >
         <text
            id="text2982"
            style="font-variant:normal;font-weight:900;font-size:1.30700004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7471,6 +7515,8 @@
              y="0"
              x="0 0.75805998 1.5880049 2.723788 3.5537331 3.9432189 4.7836199">JAMAICA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="haiti" >
         <text
            id="text2986"
            style="font-variant:normal;font-weight:900;font-size:1.375px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7480,7 +7526,8 @@
              sodipodi:role="line"
              y="0"
              x="0 0.96937501 1.8425 2.25225 3.0263751">HAITI</tspan>
-        </text>
+        </text></a>
+        <a href="#" class="country" id="venezuela" >
         <text
            id="text2990"
            style="font-variant:normal;font-weight:900;font-size:3.03900003px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7491,6 +7538,8 @@
              y="0"
              x="0 1.935843 3.6650341 5.807529 7.5367198 9.3114958 11.414484 13.143675 14.790813">VENEZUELA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="colombia" >
         <text
            id="text2994"
            style="font-variant:normal;font-weight:900;font-size:3.03900003px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7501,6 +7550,8 @@
              y="0"
              x="0 1.954077 4.032753 5.6798911 7.7585669 10.399458 12.350496 13.256118">COLOMBIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="ecuador" >
         <text
            id="text2998"
            style="font-variant:normal;font-weight:900;font-size:3.03900003px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7511,6 +7562,8 @@
              y="0"
              x="0 1.7291909 3.6832681 5.7862558 7.7160211 9.7004881 11.779164">ECUADOR</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="peru" >
         <text
            id="text3002"
            style="font-variant:normal;font-weight:900;font-size:4.33500004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7521,6 +7574,8 @@
              y="0"
              x="0 2.84376 5.3103752 8.1714754">PERU</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="paraguay" >
         <text
            id="text3006"
            style="font-variant:normal;font-weight:900;font-size:4.33500004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7531,6 +7586,8 @@
              y="0"
              x="0 2.4677999 5.2205248 8.081625 10.83435 13.70412 16.703939 19.0686">PARAGUAY</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="chile" >
         <text
            id="text3010"
            style="font-variant:normal;font-weight:900;font-size:4.33500004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7541,6 +7598,8 @@
              y="0"
              x="0 2.787405 5.8435798 7.1354098 9.4849796">CHILE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="argentina" >
         <text
            id="text3014"
            style="font-variant:normal;font-weight:900;font-size:4.33500004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7551,6 +7610,8 @@
              y="0"
              x="0 2.7527249 5.6138248 8.4835949 10.95021 13.9467 16.387304 17.679134 20.73531">ARGENTINA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="uruguay" >
         <text
            id="text3018"
            style="font-variant:normal;font-weight:900;font-size:4.33500004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7561,6 +7622,8 @@
              y="0"
              x="0 2.99982 5.86092 8.8607397 11.73051 14.73033 17.118999">URUGUAY</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="falkland-islands" >
         <text
            id="text3024"
            style="font-variant:normal;font-weight:900;font-size:1.78999996px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7576,6 +7639,8 @@
              y="2.3606999"
              x="-1.3332 -0.79978001 0.32971001 1.29989 2.4365399 3.6984899 4.8673601 5.99685 6.4425602 7.0780101 8.3166904 9.4748201">ISLANDS (UK)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="iceland" >
         <text
            id="text3028"
            style="font-variant:normal;font-weight:900;font-size:4.19199991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7586,6 +7651,8 @@
              y="0"
              x="0 1.249216 3.9446721 6.3299198 8.601984 11.263904 14.219264">ICELAND</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="svalbard" >
         <text
            id="text3034"
            style="font-variant:normal;font-weight:900;font-size:4.19199991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7601,6 +7668,8 @@
              y="5.5289998"
              x="0.3407 1.82886 4.7842202 7.6515479 10.418268 14.0536 16.407801 19.090679">(NORWAY)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="norway" >
         <text
            id="text3038"
            style="font-variant:normal;font-weight:900;font-size:4.19199991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7611,6 +7680,8 @@
              y="0"
              x="0 2.9553599 5.8226881 8.5894079 12.2247 14.5786">NORWAY</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="sweden" >
         <text
            id="text3042"
            style="font-variant:normal;font-weight:900;font-size:4.19199991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7621,6 +7692,8 @@
              y="0"
              x="0 2.6451521 6.3676481 8.7528963 11.490272 13.87552">SWEDEN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="finland" >
         <text
            id="text3046"
            style="font-variant:normal;font-weight:900;font-size:4.19199991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7631,6 +7704,8 @@
              y="0"
              x="0 2.4103999 3.659616 6.6149759 8.8870401 11.54896 14.50432">FINLAND</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="estonia" >
         <text
            id="text3050"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7641,6 +7716,8 @@
              y="0"
              x="0 1.527765 3.2219999 4.733655 6.5701952 8.4631205 9.2632504">ESTONIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="latvia" >
         <text
            id="text3054"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7651,6 +7728,8 @@
              y="0"
              x="0 1.4552701 3.0668001 4.578455 6.2887998 7.0889301">LATVIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="lithuania" >
         <text
            id="text3058"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7661,6 +7740,8 @@
              y="0"
              x="0 1.4552701 2.2553999 3.767055 5.6599798 7.5180001 9.2229748 11.1159 11.91603">LITHUANIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="belarus" >
         <text
            id="text3062"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7671,6 +7752,8 @@
              y="0"
              x="0 1.72377 3.2515349 4.7068052 6.4117799 8.1838799 10.0419">BELARUS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="poland" >
         <text
            id="text3066"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7681,6 +7764,8 @@
              y="0"
              x="0 1.76136 3.5978999 5.0531702 6.7581449 8.6510696">POLAND</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="germany" >
         <text
            id="text3070"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7691,6 +7776,8 @@
              y="0"
              x="0 1.77747 3.3052349 5.0773349 7.4106002 9.1155748 11.0085">GERMANY</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="france" >
         <text
            id="text3074"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7701,6 +7788,8 @@
              y="0"
              x="0 1.543875 3.315975 5.0209498 6.9138751 8.6403303">FRANCE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="spain" >
         <text
            id="text3078"
            style="font-variant:normal;font-weight:900;font-size:3.75099993px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7711,6 +7800,8 @@
              y="0"
              x="0 2.3668809 4.5030999 6.884985 8.0027828">SPAIN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="italy" >
         <text
            id="text3082"
            style="font-variant:normal;font-weight:900;font-size:3.75099993px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7721,6 +7812,8 @@
              y="0"
              x="0 1.0658 2.9777999 5.3596849 6.8787999">ITALY</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="ireland" >
         <text
            id="text3086"
            style="font-variant:normal;font-weight:900;font-size:2.296px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7731,6 +7824,8 @@
              y="0"
              x="0 0.68420798 2.199568 3.5059919 4.7504239 6.208384 7.827064">IRELAND</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="united-kingdom" >
         <text
            id="text3092"
            style="font-variant:normal;font-weight:900;font-size:3.26300001px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7746,6 +7841,8 @@
              y="4.3038001"
              x="-1.7172 0.39396101 1.366335 3.66675 5.8268561 7.9575949 10.189487">KINGDOM</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="portugal" >
         <text
            id="text3096"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7756,6 +7853,8 @@
              y="0"
              x="0 1.76136 3.5978999 5.3048 6.8164549 8.6744747 10.451945 12.15692">PORTUGAL</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="denmark" >
         <text
            id="text3100"
            style="font-variant:normal;font-weight:900;font-size:2.68499994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7766,6 +7865,8 @@
              y="0"
              x="0 1.753305 3.28107 5.173995 7.5072598 9.2122355 10.984335">DENMARK</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="netherlands" >
         <text
            id="text3104"
            style="font-variant:normal;font-weight:900;font-size:1.40699995px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7776,6 +7877,8 @@
              y="0"
              x="0 0.99193501 1.792518 2.5846591 3.5765941 4.3771768 5.3057971 6.0683908 6.9618359 7.9537711 8.8725424">NETHERLANDS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="belgium" >
         <text
            id="text3108"
            style="font-variant:normal;font-weight:900;font-size:1.40699995px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7786,6 +7889,8 @@
              y="0"
              x="0 0.90329403 1.703877 2.466471 3.3979051 3.8171909 4.7908349">BELGIUM</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="luxembourg" >
         <text
            id="text3112"
            style="font-variant:normal;font-weight:900;font-size:1.40699995px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7796,6 +7901,8 @@
              y="0"
              x="0 0.76259398 1.736238 2.633904 3.4344871 4.6571698 5.5604639 6.5228519 7.4964962 8.4251156">LUXEMBOURG</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="liechtenstein" >
         <text
            id="text3116"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7806,6 +7913,8 @@
              y="0"
              x="0 0.54362601 0.84252 1.413227 2.058156 2.7652709 3.3299601 3.900667 4.6077819 5.240675 5.8053641 6.376071 6.6749649">LIECHTENSTEIN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="switzerland" >
         <text
            id="text3120"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7816,6 +7925,8 @@
              y="0"
              x="0 0.63289303 1.5235569 1.822451 2.38714 2.972892 3.5435989 4.2055788 4.7492051 5.3861098 6.093225">SWITZERLAND</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="austria" >
         <text
            id="text3124"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7826,6 +7937,8 @@
              y="0"
              x="0 0.63690501 1.330981 1.963874 2.528563 3.1905429 3.4894371">AUSTRIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="slovenia" >
         <text
            id="text3128"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7836,6 +7949,8 @@
              y="0"
              x="0 0.63289303 1.176519 1.862571 2.501482 3.0721891 3.779304 4.078198">SLOVENIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="croatia" >
         <text
            id="text3132"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7846,6 +7961,8 @@
              y="0"
              x="0 0.64492899 1.306909 1.992961 2.6298659 3.194555 3.493449">CROATIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="serbia" >
         <text
            id="text3136"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7856,6 +7973,8 @@
              y="0"
              x="0 0.63289303 1.2036 1.86558 2.509506 2.8083999">SERBIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="macedonia" >
         <text
            id="text3140"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7866,6 +7985,8 @@
              y="0"
              x="0 0.87160701 1.508512 2.153441 2.724148 3.379107 4.0651588 4.772274 5.0711679">MACEDONIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="albania" >
         <text
            id="text3144"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7876,6 +7997,8 @@
              y="0"
              x="0 0.63690501 1.180531 1.824457 2.4613619 3.1684771 3.467371">ALBANIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="montenegro" >
         <text
            id="text3148"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7886,6 +8009,8 @@
              y="0"
              x="0 0.87160701 1.557659 2.2647741 2.829463 3.4001701 4.107285 4.6779919 5.3419781 6.0039582">MONTENEGRO</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="bulgaria" >
         <text
            id="text3152"
            style="font-variant:normal;font-weight:900;font-size:1.53600001px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7896,6 +8021,8 @@
              y="0"
              x="0 0.986112 2.0490241 2.881536 3.8983679 4.8737278 5.8874879 6.3452158">BULGARIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="romania" >
         <text
            id="text3156"
            style="font-variant:normal;font-weight:900;font-size:2.19199991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7906,6 +8033,8 @@
              y="0"
              x="0 1.44672 2.946048 4.8508959 6.242816 7.7881761 8.4413919">ROMANIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="moldova" >
         <text
            id="text3160"
            style="font-variant:normal;font-weight:900;font-size:2.19199991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7916,6 +8045,8 @@
              y="0"
              x="0 1.904848 3.404176 4.5922399 6.0236158 7.522944 8.8140001">MOLDOVA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="slovakia" >
         <text
            id="text3164"
            style="font-variant:normal;font-weight:900;font-size:1.49199998px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7926,6 +8057,8 @@
              y="0"
              x="0 0.94145203 1.750116 2.7706439 3.6329 4.5803199 5.5456438 5.9902601">SLOVAKIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="czech-republic" >
         <text
            id="text3170"
            style="font-variant:normal;font-weight:900;font-size:1.49199998px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7941,6 +8074,8 @@
              y="1.9681"
              x="-1.1633 -0.17858 0.67036802 1.64912 2.6815839 3.6394479 4.448112 4.8927279">REPUBLIC</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="ukraine" >
         <text
            id="text3174"
            style="font-variant:normal;font-weight:900;font-size:3.125px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7951,6 +8086,8 @@
              y="0"
              x="0 2.1624999 4.1843748 6.2468748 8.2312498 9.1625004 11.365625">UKRAINE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="greece" >
         <text
            id="text3178"
            style="font-variant:normal;font-weight:900;font-size:3.125px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7961,6 +8098,8 @@
              y="0"
              x="0 2.0687499 4.1312499 5.9093752 7.6875 9.6968746">GREECE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="turkey" >
         <text
            id="text3182"
            style="font-variant:normal;font-weight:900;font-size:4.57800007px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7971,6 +8110,8 @@
              y="0"
              x="0 2.577414 5.7453899 8.7668695 11.728836 14.333718">TURKEY</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="iraq" >
         <text
            id="text3186"
            style="font-variant:normal;font-weight:900;font-size:4.57800007px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7981,6 +8122,8 @@
              y="0"
              x="0 1.364244 4.3857241 7.2927542">IRAQ</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="iran" >
         <text
            id="text3190"
            style="font-variant:normal;font-weight:900;font-size:4.57800007px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7991,6 +8134,8 @@
              y="0"
              x="0 1.364244 4.3857241 7.2927542">IRAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="bosnia" >
         <text
            id="text3198"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8011,6 +8156,8 @@
              y="2.6461"
              x="-1.5565 -0.84938502 -0.278678 0.383302 0.96905398 1.5397609 2.203747 2.8897991 3.5287099 3.8276041 4.534719">HERZEGOVINA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="hungary" >
         <text
            id="text3202"
            style="font-variant:normal;font-weight:900;font-size:1.00300002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8021,6 +8168,8 @@
              y="0"
              x="0 0.70711499 1.401191 2.1083059 2.7722919 3.4091971 4.071177">HUNGARY</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="faroe-islands" >
         <text
            id="text3208"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8036,6 +8185,8 @@
              y="3.3151"
              x="-1.2716 -0.52242798 1.063906 2.4264939 4.0228839 5.7952542 7.4368958">ISLANDS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="azores" >
         <text
            id="text3214"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8051,6 +8202,8 @@
              y="3.3151"
              x="-2.5497999 -1.65733 -0.0081460001 1.71143 3.3094001 4.724782 6.4644699 8.1287384 9.7251282 11.087716">(PORTUGAL)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="madeira-islands" >
         <text
            id="text3220"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8066,6 +8219,8 @@
              y="3.3151"
              x="3.6499 4.5423698 6.1915541 7.91113 9.5087996 10.924182 12.66387 14.328138 15.924528 17.287115">(PORTUGAL)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="cape-verde" >
         <text
            id="text3226"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8081,6 +8236,8 @@
              y="3.3151"
              x="-0.73619998 0.86521798 2.2956841 3.9549241 5.5965662">VERDE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="burkina-faso" >
         <text
            id="text3232"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8096,6 +8253,8 @@
              y="3.3153999"
              x="2.2533 3.6252999 5.2216902 6.8080239">FASO</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="central-african-republic" >
         <text
            id="text3240"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8116,6 +8275,8 @@
              y="6.6307998"
              x="-0.50260001 1.1566401 2.587106 4.23629 5.9759779 7.5899658 8.9525537 9.701726">REPUBLIC</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="equatorial-guinea" >
         <text
            id="text3246"
            style="font-variant:normal;font-weight:900;font-size:1.14900005px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8131,6 +8292,8 @@
              y="1.5148"
              x="1.3589 2.1195381 2.9146459 3.2570479 4.0670929 4.7208738">GUINEA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="bioko" >
         <text
            id="text3252"
            style="font-variant:normal;font-weight:900;font-size:1.14900005px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8146,6 +8309,8 @@
              y="1.5151"
              x="3.1907001 3.9513381 4.7464461 5.0888481 5.8988929 6.5526738 7.282289">GUINEA)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="cabinda" >
         <text
            id="text3258"
            style="font-variant:normal;font-weight:900;font-size:1.14900005px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8161,6 +8326,8 @@
              y="1.5148"
              x="-0.2183 0.189595 0.91921002 1.729255 2.489893 3.275809 3.898567 4.6281819">(ANGOLA)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="sao-tome" >
         <text
            id="text3264"
            style="font-variant:normal;font-weight:900;font-size:1.14900005px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8176,6 +8343,8 @@
              y="1.5148"
              x="-0.417 0.22988699 1.015803 2.0142839">TOME</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="democratic-republic-of-the-congo" >
         <text
            id="text3272"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8196,6 +8365,8 @@
              y="6.6301999"
              x="-1.0023 0.71727598 2.1628261 2.7888119 4.2041941 5.9765639 7.4070301 8.0330162 9.649518 11.369094 13.141464 14.805732">OF THE CONGO</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="malawi" >
         <text
            id="text3276"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8206,6 +8377,8 @@
              y="0"
              x="0 1.4077801 2.43648 3.3145199 4.3432202 5.7817798">MALAWI</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="lesotho" >
         <text
            id="text3280"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8216,6 +8389,8 @@
              y="0"
              x="0 0.87804002 1.7998199 2.8220401 3.93012 4.8421798 5.9842801">LESOTHO</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="swaziland" >
         <text
            id="text3284"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8226,6 +8401,8 @@
              y="0"
              x="0 1.02222 2.4607799 3.48948 4.4355602 4.9183202 5.79636 6.8250599 7.9671602">SWAZILAND</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="comoros" >
         <text
            id="text3288"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8236,6 +8413,8 @@
              y="0"
              x="0 1.04166 2.14974 3.5575199 4.6655998 5.7347999 6.8428798">COMOROS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="mauritus" >
         <text
            id="text3292"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8246,6 +8425,8 @@
              y="0"
              x="0 1.4077801 2.43648 3.5575199 4.62672 5.1094799 6.0215402 7.14258">MAURITUS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="french-southern" >
         <text
            id="text3296"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8256,6 +8437,8 @@
              y="0"
              x="0 0.93150002 2.0007 2.9224801 4.06458 5.1062398 6.2483401 6.65172 7.6739402 8.7820196 9.90306 10.81512 11.95722 12.879 13.9482 15.0903 15.49368 16.522381 17.66448 18.72234 19.125719 20.154421 21.29652 22.092699 23.121401 24.190599 25.102659 25.585421 26.627081 27.03046 27.908501 28.937201 30.0793 31.137159 32.159382 32.562759 33.137859 34.069359 35.138561 36.167259 37.309361 38.351021 39.2728">FRENCH SOUTHERN AND ANTARTIC LANDS (FRANCE)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="heard-island" >
         <text
            id="text3302"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8271,6 +8454,8 @@
              y="2.1356001"
              x="0.76419997 1.3393 2.368 3.4890399 4.51126 5.4233198 6.4925199 7.5212202 8.3992596 8.88202 9.9107199">(AUSTRALIA)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="reunion" >
         <text
            id="text3308"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8286,6 +8471,8 @@
              y="2.1356001"
              x="-0.1477 0.42739999 1.3589 2.4281001 3.4568 4.5988998 5.6405602 6.5623398">(FRANCE)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="mayotte" >
         <text
            id="text3314"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8301,6 +8488,8 @@
              y="2.1359"
              x="-0.0462 0.52890003 1.4604 2.5295999 3.5583 4.7003999 5.7420602 6.6638398">(FRANCE)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="papua-new-guinea" >
         <text
            id="text3322"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8321,6 +8510,8 @@
              y="4.2712002"
              x="-0.3109 0.76154 1.88258 2.36534 3.5074401 4.4292202">GUINEA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="solomon-islands" >
         <text
            id="text3328"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8336,6 +8527,8 @@
              y="2.1356001"
              x="0.55110002 1.03386 2.0560801 2.9341199 3.9628201 5.1049199 6.1627798">ISLANDS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="vanuatu" >
         <text
            id="text3332"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8346,6 +8539,8 @@
              y="0"
              x="0 0.97259998 2.0013001 3.1434 4.2644401 5.2035999 6.1156602">VANUATU</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="new-caledonia" >
         <text
            id="text3338"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8361,6 +8556,8 @@
              y="2.1359"
              x="2.6619999 3.2370999 4.1686001 5.2378001 6.2665 7.4085999 8.4502602 9.3720398">(FRANCE)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="new-zeland" >
         <text
            id="text3344"
            style="font-variant:normal;font-weight:900;font-size:5.87799978px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8376,6 +8573,8 @@
              y="7.7528"
              x="-4.5110998 -1.078348 2.2662339 5.5033998 9.2359304 13.37992">ZELAND</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="fiji" >
         <text
            id="text3348"
            style="font-variant:normal;font-weight:900;font-size:1.62px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8386,6 +8585,8 @@
              y="0"
              x="0 0.93150002 1.41426 2.3538599">FIJI</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="cote-divoire" >
         <text
            id="text3354"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8401,6 +8602,8 @@
              y="3.3153999"
              x="-1.9227 -0.28105801 0.20665801 0.95582998 2.5572481 4.276824 5.0259962 6.685236">D’IVOIRE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="western-sharah" >
         <text
            id="text3360"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8416,6 +8619,8 @@
              y="3.3151"
              x="0.7608 2.3471341 4.119504 5.7158942 7.375134 8.9715242">SHARAH</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="the-gambia" >
         <text
            id="text3364"
            style="font-variant:normal;font-weight:900;font-size:1.78799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8426,6 +8631,8 @@
              y="0"
              x="0 1.006644 2.267184 3.2845559 3.729768 4.913424 6.0488038 7.6025758 8.7504721 9.2832956">THE GAMBIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="sierra-leone" >
         <text
            id="text3368"
            style="font-variant:normal;font-weight:900;font-size:1.78799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8436,6 +8643,8 @@
              y="0"
              x="0 1.1282279 1.661052 2.6784239 3.8585041 5.0385842 6.173964 6.6191759 7.5882721 8.6056442 9.8286362 11.089176">SIERRA LEONE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="guinea-bissau" >
         <text
            id="text3372"
            style="font-variant:normal;font-weight:900;font-size:1.78799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8446,6 +8655,8 @@
              y="0"
              x="0 1.183656 2.4209521 2.9537759 4.2143159 5.231688 6.3670678 7.1716681 8.3195639 8.8523884 9.9806156 11.108844 12.244224">GUINEA-BISSAU</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="senegal" >
         <text
            id="text3376"
            style="font-variant:normal;font-weight:900;font-size:2.29399991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8456,6 +8667,8 @@
              y="0"
              x="0 1.4475141 2.7528 4.37007 5.6753559 7.193984 8.6506739">SENEGAL</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="mali" >
         <text
            id="text3380"
            style="font-variant:normal;font-weight:900;font-size:4.69099998px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8466,6 +8679,8 @@
              y="0"
              x="0 4.076479 7.055264 9.5977859">MALI</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="libya" >
         <text
            id="text3384"
            style="font-variant:normal;font-weight:900;font-size:4.69099998px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8476,6 +8691,8 @@
              y="0"
              x="0 2.542522 3.9404399 6.8257999 9.4827003">LIBYA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="algeria" >
         <text
            id="text3388"
            style="font-variant:normal;font-weight:900;font-size:4.69099998px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8486,6 +8703,8 @@
              y="0"
              x="0 2.978785 5.4608998 8.5663424 11.235521 14.331581 15.729499">ALGERIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="egypt" >
         <text
            id="text3392"
            style="font-variant:normal;font-weight:900;font-size:4.69099998px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8496,6 +8715,8 @@
              y="0"
              x="0 2.669179 5.774621 8.7768612 11.854157">EGYPT</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="mauritania" >
         <text
            id="text3396"
            style="font-variant:normal;font-weight:900;font-size:2.29399991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8506,6 +8727,8 @@
              y="0"
              x="0 1.993486 3.450176 5.0376239 6.5516639 7.2352762 8.3758001 9.83249 11.44976 12.133372">MAURITANIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="morocco" >
         <text
            id="text3400"
            style="font-variant:normal;font-weight:900;font-size:2.29399991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8516,6 +8739,8 @@
              y="0"
              x="0 1.993486 3.562582 5.076622 6.6457181 8.12076 9.5958023">MOROCCO</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="tunisia" >
         <text
            id="text3404"
            style="font-variant:normal;font-weight:900;font-size:1.91700006px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8526,6 +8751,8 @@
              y="0"
              x="0 1.079271 2.4058349 3.7573199 4.3285861 5.5382128 6.109479">TUNISIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="malta" >
         <text
            id="text3408"
            style="font-variant:normal;font-weight:900;font-size:1.48000002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8536,6 +8763,8 @@
              y="0"
              x="0 1.2861201 2.22592 2.8915999 3.6459">MALTA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="liberia" >
         <text
            id="text3412"
            style="font-variant:normal;font-weight:900;font-size:2.29399991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8546,6 +8775,8 @@
              y="0"
              x="0 1.243348 1.92696 3.399708 4.7049942 6.2190342 6.9026461">LIBERIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="guinea" >
         <text
            id="text3416"
            style="font-variant:normal;font-weight:900;font-size:2.29399991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8556,6 +8787,8 @@
              y="0"
              x="0 1.518628 3.106076 3.7896881 5.4069581 6.712244">GUINEA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="nigeria" >
         <text
            id="text3420"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8566,6 +8799,8 @@
              y="0"
              x="0 2.3991151 3.413209 5.6659951 7.6023021 9.8482819 10.862376">NIGERIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="niger" >
         <text
            id="text3424"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8576,6 +8811,8 @@
              y="0"
              x="0 2.3991151 3.413209 5.6659951 7.6023021">NIGER</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="chad" >
         <text
            id="text3428"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8586,6 +8823,8 @@
              y="0"
              x="0 2.1881289 4.587244 6.7481489">CHAD</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="sudan" >
         <text
            id="text3432"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8596,6 +8835,8 @@
              y="0"
              x="0 2.1472931 4.5021691 6.724328 8.8852329">SUDAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="eritrea" >
         <text
            id="text3436"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8606,6 +8847,8 @@
              y="0"
              x="0 1.936307 4.1822872 5.1963811 7.1122699 9.3582497 11.294557">ERITREA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="yemen" >
         <text
            id="text3440"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8616,6 +8859,8 @@
              y="0"
              x="0 2.1779201 4.1142268 7.071434 9.007741">YEMEN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="oman" >
         <text
            id="text3444"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8626,6 +8871,8 @@
              y="0"
              x="0 2.327652 5.2848592 7.4457641">OMAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="qatar" >
         <text
            id="text3448"
            style="font-variant:normal;font-weight:900;font-size:1.55700004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8636,6 +8883,8 @@
              y="0"
              x="0 1.1039129 2.0228 2.8159001 3.804595">QATAR</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="syria" >
         <text
            id="text3452"
            style="font-variant:normal;font-weight:900;font-size:2.68300009px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8646,6 +8895,8 @@
              y="0"
              x="0 1.692973 3.4100931 5.1808729 5.9804072">SYRIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="cyprus" >
         <text
            id="text3456"
            style="font-variant:normal;font-weight:900;font-size:1.23599994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8656,6 +8907,8 @@
              y="0"
              x="0 0.79474801 1.585788 2.3966041 3.212364 4.0676761">CYPRUS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="lebanon" >
         <text
            id="text3460"
            style="font-variant:normal;font-weight:900;font-size:1.23599994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8666,6 +8919,8 @@
              y="0"
              x="0 0.66991198 1.373196 2.166708 2.9515679 3.822948 4.6683722">LEBANON</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="armenia" >
         <text
            id="text3464"
            style="font-variant:normal;font-weight:900;font-size:1.23599994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8676,6 +8931,8 @@
              y="0"
              x="0 0.78486001 1.60062 2.6747041 3.3779881 4.2493682 4.6176958">ARMENIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="azerbaijan" >
         <text
            id="text3468"
            style="font-variant:normal;font-weight:900;font-size:1.23599994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8686,6 +8943,8 @@
              y="0"
              x="0 0.78486001 1.5066839 2.2099681 3.025728 3.8192401 4.6041002 4.9724278 5.6893082 6.4741678">AZERBAIJAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="turkmenistan" >
         <text
            id="text3472"
            style="font-variant:normal;font-weight:900;font-size:2.11400008px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8696,6 +8955,8 @@
              y="0"
              x="0 1.190182 2.65307 4.0483098 5.4160681 7.2531338 8.4560003 9.9463701 10.576342 11.910276 12.9915 14.33389">TURKMENISTAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="afghanistan" >
         <text
            id="text3476"
            style="font-variant:normal;font-weight:900;font-size:2.11400008px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8706,6 +8967,8 @@
              y="0"
              x="0 1.3423899 2.55794 3.957408 5.4477782 6.7901678 8.2805376 8.9105101 10.244444 11.3426 12.68499">AFGHANISTAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="pakistan" >
         <text
            id="text3480"
            style="font-variant:normal;font-weight:900;font-size:2.11400008px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8716,6 +8979,8 @@
              y="0"
              x="0 1.2036 2.54599 3.913748 4.5437198 5.8776541 6.9570999 8.29949">PAKISTAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="kashmir" >
         <text
            id="text3484"
            style="font-variant:normal;font-weight:900;font-size:2.11400008px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8726,6 +8991,8 @@
              y="0"
              x="0 1.367758 2.7101481 4.0440822 5.534452 7.3715181 8.0014896">KASHMIR</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="bhutan" >
         <text
            id="text3488"
            style="font-variant:normal;font-weight:900;font-size:1.398px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8736,6 +9003,8 @@
              y="0"
              x="0 0.89751601 1.883106 2.850522 3.5623 4.4500299">BHUTAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="nepal" >
         <text
            id="text3492"
            style="font-variant:normal;font-weight:900;font-size:2.11400008px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8746,6 +9015,8 @@
              y="0"
              x="0 1.49037 2.6932361 3.8971 5.23949">NEPAL</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="bangladesh" >
         <text
            id="text3496"
            style="font-variant:normal;font-weight:900;font-size:1.19599998px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8756,6 +9027,8 @@
              y="0"
              x="0 0.76783198 1.527292 2.370472 3.1622241 3.810456 4.5699158 5.350904 6.0314279 6.7861042">BANGLADESH</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="myanmar" >
         <text
            id="text3502"
            style="font-variant:normal;font-weight:900;font-size:1.93099999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8771,6 +9044,8 @@
              y="2.5464001"
              x="0.69340003 1.3789051 2.618607 3.954859 5.2293191 6.9073582 8.133543">(BURMA)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="laos" >
         <text
            id="text3506"
            style="font-variant:normal;font-weight:900;font-size:1.93099999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8781,6 +9056,8 @@
              y="0"
              x="0 1.046602 2.2727871 3.593591">LAOS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="thailand" >
         <text
            id="text3510"
            style="font-variant:normal;font-weight:900;font-size:2.6329999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8791,6 +9068,8 @@
              y="0"
              x="0 1.482379 3.338644 5.0105991 5.7952328 7.2223191 8.8942738 10.750539">THAILAND</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="taiwan" >
         <text
            id="text3514"
            style="font-variant:normal;font-weight:900;font-size:2.6329999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8801,6 +9080,8 @@
              y="0"
              x="0 1.3419 3.013855 3.7984891 6.0811 7.7530551">TAIWAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="malaysia" >
         <text
            id="text3518"
            style="font-variant:normal;font-weight:900;font-size:2.63000011px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8811,6 +9092,8 @@
              y="0"
              x="0 2.28547 3.9555199 5.38098 6.9043002 8.5874996 10.24703 11.03077">MALAYSIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="vietnam" >
         <text
            id="text3522"
            style="font-variant:normal;font-weight:900;font-size:1.24000001px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8821,6 +9104,8 @@
              y="0"
              x="0 0.78987998 1.1594 1.86496 2.5630801 3.4372799 4.2246799">VIETNAM</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="cambodia" >
         <text
            id="text3526"
            style="font-variant:normal;font-weight:900;font-size:1.86399996px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8831,6 +9116,8 @@
              y="0"
              x="0 1.198552 2.3821919 4.002008 5.1986961 6.4736719 7.6908641 8.246336">CAMBODIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="uzbekistan" >
         <text
            id="text3530"
            style="font-variant:normal;font-weight:900;font-size:1.92400002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8841,6 +9128,8 @@
              y="0"
              x="0 1.331408 2.455024 3.690232 4.7849879 6.0298162 6.603168 7.8172121 8.8009996 10.02274">UZBEKISTAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="palestine" >
         <text
            id="text3534"
            style="font-variant:normal;font-weight:900;font-size:1.23599994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8851,6 +9140,8 @@
              y="0"
              x="0 0.81081599 1.5956759 2.265588 2.9688721 3.7487881 4.4446559 4.812984 5.6843638">PALESTINE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="jordan" >
         <text
            id="text3538"
            style="font-variant:normal;font-weight:900;font-size:1.23599994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8861,6 +9152,8 @@
              y="0"
              x="0 0.71688002 1.562304 2.3780639 3.1851721 3.970032">JORDAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="kuwait" >
         <text
            id="text3542"
            style="font-variant:normal;font-weight:900;font-size:1.55700004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8871,6 +9164,8 @@
              y="0"
              x="0 1.0073791 2.0848229 3.4674389 4.4561338 4.9201198">KUWAIT</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="united-arab-emirates" >
         <text
            id="text3550"
            style="font-variant:normal;font-weight:900;font-size:0.991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8890,7 +9185,8 @@
              sodipodi:role="line"
              y="2.6133001"
              x="-0.63690001 -0.073021002 0.788158 1.0834759 1.737536 2.3668211 2.9247539 3.4886329">EMIRATES</tspan>
-        </text>
+        </text></a>
+        <a href="#" class="country" id="saudi-arabia" >
         <text
            id="text3556"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8906,6 +9202,8 @@
              y="4.4878001"
              x="-1.0423 1.118605 3.3645849 5.5254898 7.710216 8.7243099">ARABIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="uganda" >
         <text
            id="text3560"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8916,6 +9214,8 @@
              y="0"
              x="0 2.354876 4.6076622 6.7685671 9.1676817 11.389841">UGANDA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="ethiopia" >
         <text
            id="text3564"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8926,6 +9226,8 @@
              y="0"
              x="0 1.936307 3.852196 6.2513108 7.2654052 9.5930567 11.825425 12.839519">ETHIOPIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="somalia" >
         <text
            id="text3568"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8936,6 +9238,8 @@
              y="0"
              x="0 2.1472931 4.4749451 7.4321518 9.5930567 11.437483 12.451577">SOMALIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="djibouti" >
         <text
            id="text3572"
            style="font-variant:normal;font-weight:900;font-size:1.44799995px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8946,6 +9250,8 @@
              y="0"
              x="0 0.945544 1.7853841 2.216888 3.1465039 4.1369362 5.1389518 5.9541759">DJIBOUTI</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="seychelles" >
         <text
            id="text3576"
            style="font-variant:normal;font-weight:900;font-size:1.44799995px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8956,6 +9262,8 @@
              y="0"
              x="0 0.913688 1.7376 2.66432 3.5953839 4.6162238 5.440136 6.2249522 7.009768 7.8336802">SEYCHELLES</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="rwanda" >
         <text
            id="text3580"
            style="font-variant:normal;font-weight:900;font-size:1.44799995px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8966,6 +9274,8 @@
              y="0"
              x="0 0.95568001 2.241504 3.160984 4.1818242 5.127368">RWANDA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="burundi" >
         <text
            id="text3584"
            style="font-variant:normal;font-weight:900;font-size:1.44799995px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8976,6 +9286,8 @@
              y="0"
              x="0 0.92961597 1.931632 2.8873119 3.889328 4.9101682 5.8557119">BURUNDI</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="kenya" >
         <text
            id="text3588"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8986,6 +9298,8 @@
              y="0"
              x="0 2.201741 4.1380482 6.5371628 8.4172001">KENYA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="tanzania" >
         <text
            id="text3592"
            style="font-variant:normal;font-weight:900;font-size:3.40300012px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -8996,6 +9310,8 @@
              y="0"
              x="0 1.7351 3.8960049 6.2951198 8.2824717 10.443377 12.842492 13.856586">TANZANIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="cameroon" >
         <text
            id="text3596"
            style="font-variant:normal;font-weight:900;font-size:2.35800004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9006,6 +9322,8 @@
              y="0"
              x="0 1.516194 3.0135241 5.0626259 6.4043279 7.960608 9.5734797 11.186352">CAMEROON</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="congo" >
         <text
            id="text3600"
            style="font-variant:normal;font-weight:900;font-size:2.35800004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9016,6 +9334,8 @@
              y="0"
              x="0 1.516194 3.129066 4.7914562 6.3524518">CONGO</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="sout-sudan" >
         <text
            id="text3604"
            style="font-variant:normal;font-weight:900;font-size:2.35800004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9026,6 +9346,8 @@
              y="0"
              x="0 1.487898 3.10077 4.7325058 6.06006 6.647202 8.1351004 9.7668362 11.30661 12.80394">SOUT SUDAN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="gabon" >
         <text
            id="text3608"
            style="font-variant:normal;font-weight:900;font-size:2.35800004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9036,6 +9358,8 @@
              y="0"
              x="0 1.5609961 3.058326 4.5721622 6.1850338">GABON</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="angola" >
         <text
            id="text3612"
            style="font-variant:normal;font-weight:900;font-size:4.11199999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9046,6 +9370,8 @@
              y="0"
              x="0 2.61112 5.5100799 8.2322245 11.044832 13.273536">ANGOLA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="botswana" >
         <text
            id="text3616"
            style="font-variant:normal;font-weight:900;font-size:2.68400002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9056,6 +9382,8 @@
              y="0"
              x="0 1.723128 3.558984 5.070076 6.76368 9.0337 10.73804 12.63026">BOTSWANA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="zimbawe" >
         <text
            id="text3620"
            style="font-variant:normal;font-weight:900;font-size:2.68400002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9066,6 +9394,8 @@
              y="0"
              x="0 1.567456 2.3672881 4.6996841 6.422812 8.0761995 10.459592">ZIMBAWE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="mozambique" >
         <text
            id="text3624"
            style="font-variant:normal;font-weight:900;font-size:2.68400002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9076,6 +9406,8 @@
              y="0"
              x="0 2.332396 4.168252 5.7357082 7.4400482 9.7724438 11.495572 12.295404 14.19836 16.055689">MOZAMBIQUE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="madagascar" >
         <text
            id="text3628"
            style="font-variant:normal;font-weight:900;font-size:2.68400002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9086,6 +9418,8 @@
              y="0"
              x="0 2.332396 4.036736 5.7893882 7.4937282 9.2705364 10.974876 12.66848 14.394292 16.098633">MADAGASCAR</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="namibia" >
         <text
            id="text3632"
            style="font-variant:normal;font-weight:900;font-size:4.11199999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9096,6 +9430,8 @@
              y="0"
              x="0 2.8989601 5.5100799 9.0834084 10.308784 12.948688 14.174064">NAMIBIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="south-africa" >
         <text
            id="text3638"
            style="font-variant:normal;font-weight:900;font-size:4.11199999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9111,6 +9447,8 @@
              y="5.4232001"
              x="-0.3506 2.26052 4.6249199 7.33884 8.5642157 11.208232">AFRICA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="zambia" >
         <text
            id="text3642"
            style="font-variant:normal;font-weight:900;font-size:4.11199999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9121,6 +9459,8 @@
              y="0"
              x="0 2.401408 5.0125279 8.5858564 11.22576 12.451136">ZAMBIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="ghana" >
         <text
            id="text3646"
            style="font-variant:normal;font-weight:900;font-size:2.29399991px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9131,6 +9471,8 @@
              y="0"
              x="0 1.518628 3.1358981 4.5925879 6.2098579">GHANA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="togo" >
         <text
            id="text3650"
            style="font-variant:normal;font-weight:900;font-size:1.25800002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9141,6 +9483,8 @@
              y="0"
              x="0 0.70825398 1.5687259 2.4015219">TOGO</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="benin" >
         <text
            id="text3654"
            style="font-variant:normal;font-weight:900;font-size:1.22300005px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9151,6 +9495,8 @@
              y="0"
              x="0 0.78516603 1.481053 2.3432679 2.7077219">BENIN</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="canary-islands" >
         <text
            id="text3660"
            style="font-variant:normal;font-weight:900;font-size:2.51399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9166,6 +9512,8 @@
              y="3.3151"
              x="3.1143999 4.0068698 5.656054 7.3756299 8.9733 10.388682 12.12837 13.792638 15.389028 16.751616">(PORTUGAL)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="south-georgia" >
         <text
            id="text3666"
            style="font-variant:normal;font-weight:900;font-size:1.78999996px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9181,6 +9529,8 @@
              y="2.3606999"
              x="-2.8657999 -1.68082 -0.66231 0.56204998 1.74345 2.9284301 3.4618499 4.5984998 5.04421 5.6796598 6.9183402 8.0764704">GEORGIA (UK)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="bolivia" >
         <text
            id="text3670"
            style="font-variant:normal;font-weight:900;font-size:4.33500004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9191,6 +9541,8 @@
              y="0"
              x="0 2.7830701 5.74821 8.0977802 9.3896103 12.151005 13.442835">BOLIVIA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="brazil" >
         <text
            id="text3674"
            style="font-variant:normal;font-weight:900;font-size:7.01399994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9201,6 +9553,8 @@
              y="0"
              x="0 4.5029879 9.1322279 13.586118 17.682295 19.772467">BRAZIL</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="french-guiana" >
         <text
            id="text3680"
            style="font-variant:normal;font-weight:900;font-size:1.70799994px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9216,6 +9570,8 @@
              y="2.2527001"
              x="0.1806 1.311296 2.493232 3.0022161 4.0867958 5.290936">GUIANA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="suriname" >
         <text
            id="text3684"
            style="font-variant:normal;font-weight:900;font-size:2.08200002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9226,6 +9582,8 @@
              y="0"
              x="0 1.313742 2.7544861 4.1286058 4.749042 6.2168522 7.5389218 9.3481798">SURINAME</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="guyana" >
         <text
            id="text3688"
            style="font-variant:normal;font-weight:900;font-size:3.03900003px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9236,6 +9594,8 @@
              y="0"
              x="0 2.0118179 4.1148062 5.8357 7.7654648 9.9079599">GUYANA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="panama" >
         <text
            id="text3692"
            style="font-variant:normal;font-weight:900;font-size:1.48000002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9246,6 +9606,8 @@
              y="0"
              x="0 0.84219998 1.7819999 2.8254001 3.7651999 5.0513201">PANAMA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="costa-rica" >
         <text
            id="text3696"
            style="font-variant:normal;font-weight:900;font-size:1.48000002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9256,6 +9618,8 @@
              y="0"
              x="0 0.95164001 1.9639601 2.89784 3.651 4.5907998 4.9593201 5.93612 6.3771601 7.3288002">COSTA RICA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="nicaragua" >
         <text
            id="text3700"
            style="font-variant:normal;font-weight:900;font-size:1.48000002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9266,6 +9630,8 @@
              y="0"
              x="0 1.0434 1.48444 2.43608 3.37588 4.3526802 5.29248 6.2722402 7.2964001">NICARAGUA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="honduras" >
         <text
            id="text3704"
            style="font-variant:normal;font-weight:900;font-size:1.48000002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9276,6 +9642,8 @@
              y="0"
              x="0 1.0434 2.0557201 3.0991199 4.0655599 5.0897198 6.0665202 7.00632">HONDURAS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="el-salvador" >
         <text
            id="text3708"
            style="font-variant:normal;font-weight:900;font-size:1.48000002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9286,6 +9654,8 @@
              y="0"
              x="0 0.84211999 1.64428 2.0128 2.9466801 3.8864801 4.5377002 5.4264002 6.3662 7.3326402 8.3449602">EL SALVADOR</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="belize" >
         <text
            id="text3712"
            style="font-variant:normal;font-weight:900;font-size:1.48000002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9296,6 +9666,8 @@
              y="0"
              x="0 0.95016003 1.79228 2.59444 3.03548 3.8998001">BELIZE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="guatemala" >
         <text
            id="text3716"
            style="font-variant:normal;font-weight:900;font-size:1.48000002px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9306,6 +9678,8 @@
              y="0"
              x="0 0.97975999 2.0039201 2.8627 3.69594 4.5380602 5.8241801 6.7639799 7.5661402">GUATEMALA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="dominican-republic" >
         <text
            id="text3722"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9321,6 +9695,8 @@
              y="1.5273"
              x="0.4567 1.22098 1.879882 2.6395299 3.440866 4.1843019 4.8119378 5.157022">REPUBLIC</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="puerto-rico" >
         <text
            id="text3728"
            style="font-variant:normal;font-weight:900;font-size:0.83099997px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9336,6 +9712,8 @@
              y="1.0953"
              x="-0.5873 -0.03884 0.20879801 0.74313098 1.311535 1.518454 1.813459 2.3885109 2.9128721 3.440557">RICO (USA)</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="saint-kitts-and-nevis" >
         <text
            id="text3732"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9346,6 +9724,8 @@
              y="0"
              x="0 0.73069799 1.466028 1.811112 2.627502 3.2794559 3.5677979 4.3170242 4.6621079 5.3140621 5.9660158 6.6967139 6.9850559 7.720386 8.5367756 9.2929497 9.5812922 10.397682 11.056584 11.79423 12.139314">SAINT KITTS AND NEVIS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="monserrat" >
         <text
            id="text3736"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9356,6 +9736,8 @@
              y="0"
              x="0 1.006302 1.7983741 2.614764 3.3454621 4.004364 4.7686439 5.5329242 6.2185998">MONSERRAT</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="guadeloupe" >
         <text
            id="text3740"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9366,6 +9748,8 @@
              y="0"
              x="0 0.76659602 1.567932 2.303262 3.0594361 3.718338 4.345974 5.1380458 5.9393821 6.6990299">GUADELOUPE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="dominica" >
         <text
            id="text3744"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9376,6 +9760,8 @@
              y="0"
              x="0 0.75617403 1.548246 2.554548 2.899632 3.716022 4.0611062 4.8056998">DOMINICA</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="martinique" >
         <text
            id="text3748"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9386,6 +9772,8 @@
              y="0"
              x="0 1.006302 1.741632 2.5059121 3.157866 3.50295 4.3193402 4.6644239 5.485446 6.2867818">MARTINIQUE</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="saint-vicent" >
         <text
            id="text3752"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9396,6 +9784,8 @@
              y="0"
              x="0 0.73069799 1.466028 1.811112 2.627502 3.2794559 3.5677979 4.3054438 4.650528 5.3951221 6.0540242 6.8704138">SAINT VICENT</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="barbados" >
         <text
            id="text3756"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9406,6 +9796,8 @@
              y="0"
              x="0 0.74343598 1.478766 2.243046 2.9864819 3.721812 4.4779859 5.2700582">BARBADOS</tspan>
         </text>
+        </a>
+        <a href="#" class="country" id="trinidad-and-tobago" >
         <text
            id="text3760"
            style="font-variant:normal;font-weight:900;font-size:1.15799999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9416,8 +9808,12 @@
              y="0"
              x="0 0.651954 1.416234 1.761318 2.577708 2.922792 3.678966 4.4142962 5.1704702 5.4588122 6.1941419 7.0105319 7.766706 8.055048 8.7070017 9.499074 10.24251 10.97784 11.744436">TRINIDAD AND TOBAGO</tspan>
         </text>
+        </a>
         <g
            id="g3762">
+           
+        
+        <a href="#" class="country" id="estonia" >
           <text
              id="text3766"
              style="font-variant:normal;font-weight:900;font-size:1.13600004px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9428,7 +9824,11 @@
                y="0"
                x="0 0.75203198 1.398416 2.1754401 2.9252 3.677232 4.0157599">GEORGIA</tspan>
           </text>
+          </a>
+          
         </g>
+        
+        <a href="#" class="country" id="alaska" >
         <text
            id="text3770"
            style="font-variant:normal;font-weight:900;font-size:4.38800001px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9439,6 +9839,9 @@
              y="0"
              x="0 2.7863801 5.1646762 7.951056 10.719884 13.55892 16.345301 17.437912 18.995651 22.032148 24.800976 27.587357">ALASKA (USA)</tspan>
         </text>
+        </a>
+        
+        <a href="#" class="country" id="bahrain" >
         <text
            id="text3774"
            style="font-variant:normal;font-weight:900;font-size:0.59299999px;font-family:Roboto;-inkscape-font-specification:Roboto-Black;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9449,6 +9852,7 @@
              y="0"
              x="0 0.38070601 0.75726098 1.175326 1.5667059 1.943261 2.1199751">BAHRAIN</tspan>
         </text>
+        </a>
       </g>
     </g>
   </g>
