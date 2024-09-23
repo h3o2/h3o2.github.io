@@ -436,13 +436,17 @@ pre code {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 2000px;
 }
 
 /* SVG map styling */
 #world-map {
     width: 100vw;
     height: auto;
-    background-color: lightblue;
+    background: url(images/mapbase.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 /* Country interaction */
@@ -461,14 +465,17 @@ pre code {
     display: none; /* Hidden by default */
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 90vw;
+    width: 50vw;
     margin: auto auto 200px auto;
     padding: 10px;
     border-radius: 10px;
     position: absolute;
     top: 325px;
-    left: 5%;
-    
+    left: 25%; 
+}
+
+#close-dropdown-button {
+    justify-content: center;
 }
 
 #task-list {
@@ -490,10 +497,6 @@ pre code {
     cursor: pointer;
 }
 
-#map-and-tasks {
-    display: block;
-    width: 100vw;
-}
 
 /* Style for the editor container */
 .editor-container {
