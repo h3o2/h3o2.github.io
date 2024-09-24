@@ -12,6 +12,54 @@ const tasks = {
 			'',
         ]
     },
+    sweden: {
+        name: 'Sweden',
+        quests: [
+            '',
+        ]
+    },
+    norway: {
+        name: 'Norway',
+        quests: [
+            '',
+        ]
+    },
+    russia: {
+        name: 'Russia',
+        quests: [
+            '',
+        ]
+    },
+    greenland: {
+        name: 'Greenland',
+        quests: [
+            '',
+        ]
+    },
+    canada: {
+        name: 'Canada',
+        quests: [
+            '',
+        ]
+    },
+    usa: {
+        name: 'USA',
+        quests: [
+            '',
+        ]
+    },
+    alaska: {
+        name: 'Alaska',
+        quests: [
+            '',
+        ]
+    },
+    mexico: {
+        name: 'Mexico',
+        quests: [
+            '',
+        ]
+    },
     // Add more countries and tasks here
 };
 

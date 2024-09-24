@@ -530,7 +530,7 @@ textarea {
 
 #preview-frame {
     width: 100%;                /* Full width of its container */
-    height: 300px;              /* Set height for the iframe */
+    height: 1080px;              /* Set height for the iframe */
     border: 1px solid #ccc;
     border-radius: 5px;
 }
