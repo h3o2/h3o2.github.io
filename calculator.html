@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Website</title>
+    <link rel="stylesheet" href="stylecalc.css">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <!--<nav>
+      <ul>
+        <li><a href="#normal-calculator">Normal Calculator</a></li>
+        <li><a href="#tax-calculator">Tax Calculator</a></li>
+        <li><a href="#volume-calculator">Volume Calculator</a></li>
+      </ul>
+    </nav>-->
+    
+    <!-- Main content -->
+    <div id="main-content">
+      <!--<h1>Calculators</h1>-->
+      
+      <!-- Normal calculator -->
+      
+        <h2 style="text-align: center;">Pakettilaskuri</h2>
+		<section id="normal-calculator">
+		<div id="pack1">
+        <h3>Paketti 1</h3>
+        <input type="text" id="num11" placeholder="pituus (cm)" >
+        <input type="text" id="num12" placeholder="leveys (cm)" >
+        <input type="text" id="num13" placeholder="korkeus (cm)" >
+		</div>
+		<div id="pack2">
+        <h3>Paketti 2</h3>
+        <input type="text" id="num21" placeholder="pituus (cm)" >
+        <input type="text" id="num22" placeholder="leveys (cm)" >
+        <input type="text" id="num23" placeholder="korkeus (cm)" >
+		</div>
+		<div id="pack3">
+        <h3>Paketti 3</h3>
+        <input type="text" id="num31" placeholder="pituus (cm)" >
+        <input type="text" id="num32" placeholder="leveys (cm)" >
+        <input type="text" id="num33" placeholder="korkeus (cm)" >
+		</div>
+		<div id="pack4">
+        <h3>Paketti 4</h3>
+        <input type="text" id="num41" placeholder="pituus (cm)" >
+        <input type="text" id="num42" placeholder="leveys (cm)" >
+        <input type="text" id="num43" placeholder="korkeus (cm)" >
+		</div>
+		<div id="pack5">
+        <h3>Paketti 5</h3>
+        <input type="text" id="num51" placeholder="pituus (cm)" >
+        <input type="text" id="num52" placeholder="leveys (cm)" >
+        <input type="text" id="num53" placeholder="korkeus (cm)" >
+		</div>
+</section>
+<br>
+<button onclick="calculateNormal()">Laske tilavuus</button>
+<p style="text-align: center;" id="result"></p>
+      
+      
+     </div>
+    
+    <!-- Footer -->
+    <footer>
+      <p style="text-align: center;">&copy; 2024 Calculator Website. All rights reserved.</p>
+    </footer>
+	
+	<script src="scriptcalc.js"></script>
+  </body>
+</html>

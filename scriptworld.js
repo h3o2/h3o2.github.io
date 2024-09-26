@@ -15,7 +15,7 @@ const tasks = {
     sweden: {
         name: 'Sweden',
         quests: [
-            '',
+            'Build a Basic Calculator',
         ]
     },
     norway: {

@@ -116,6 +116,153 @@ const tasks = {
 
 
     },
+    sweden: {
+        name: 'Sweden',
+        quests: [
+          {
+            title: 'Build a Basic Calculator',
+            description: 'Complete the JavaScript code to make the calculator functional. It should handle addition, subtraction, multiplication, and division operations.',
+            html: `
+<div class="calculator">
+  <input type="text" id="calc-display" placeholder="0" readonly>
+
+  <div class="buttons">
+    <button class="btn num" data-num="7">7</button>
+    <button class="btn num" data-num="8">8</button>
+    <button class="btn num" data-num="9">9</button>
+    <button class="btn operator" data-operator="/">÷</button>
+
+    <button class="btn num" data-num="4">4</button>
+    <button class="btn num" data-num="5">5</button>
+    <button class="btn num" data-num="6">6</button>
+    <button class="btn operator" data-operator="*">×</button>
+
+    <button class="btn num" data-num="1">1</button>
+    <button class="btn num" data-num="2">2</button>
+    <button class="btn num" data-num="3">3</button>
+    <button class="btn operator" data-operator="-">-</button>
+
+    <button class="btn num" data-num="0">0</button>
+    <button class="btn" id="clear">C</button>
+    <button class="btn operator" data-operator="+">+</button>
+    <button class="btn" id="equals">=</button>
+  </div>
+</div>
+`,
+            css: `
+              .calculator {
+                width: 250px;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                text-align: center;
+                background-color: #f0f0f0;
+              }
+        
+              #calc-display {
+                width: 100%;
+                font-size: 24px;
+                padding: 10px;
+                text-align: right;
+                margin-bottom: 10px;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              }
+        
+              .buttons {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+              }
+        
+              .btn {
+                font-size: 18px;
+                padding: 15px;
+                background-color: #006AA7;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+              }
+        
+              .btn:hover {
+                background-color: #004C6D;
+              }
+        
+              .operator {
+                background-color: #004C6D;
+              }
+        
+              #clear {
+                background-color: #F44336;
+              }
+            `,
+            js: `
+              const display = document.getElementById('calc-display');
+              let currentInput = '';
+              let previousInput = '';
+              let operator = '';
+        
+              // Handle number input
+              document.querySelectorAll('.num').forEach(button => {
+                button.addEventListener('click', () => {
+                  currentInput += button.getAttribute('data-num');
+                  display.value = currentInput;
+                });
+              });
+        
+              // Handle operators
+              document.querySelectorAll('.operator').forEach(button => {
+                button.addEventListener('click', () => {
+                  if (currentInput === '') return;
+                  operator = button.getAttribute('data-operator');
+                  previousInput = currentInput;
+                  currentInput = '';
+                });
+              });
+        
+              // Handle equal button
+              document.getElementById('equals').addEventListener('click', () => {
+                if (previousInput === '' || currentInput === '' || operator === '') return;
+        
+                const result = calculate(parseFloat(previousInput), parseFloat(currentInput), operator);
+                display.value = result;
+                currentInput = result.toString();
+                previousInput = '';
+                operator = '';
+              });
+        
+              // Handle clear button
+              document.getElementById('clear').addEventListener('click', () => {
+                currentInput = '';
+                previousInput = '';
+                operator = '';
+                display.value = '0';
+              });
+        
+              // Calculate the result
+              function calculate(num1, num2, operator) {
+                switch (operator) {
+                  case '+':
+                    return num1 + num2;
+                  case '-':
+                    return num1 - num2;
+                  case '*':
+                    return num1 * num2;
+                  case '/':
+                    return num1 / num2;
+                  default:
+                    return 0;
+                }
+              }
+            `
+          }
+        ]
+      }   
+    
     // Add more countries and tasks here...
 };
 
