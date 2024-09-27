@@ -3,19 +3,14 @@ const tasks = {
     finland: {
         name: 'Finland',
         quests: [
-            'Fix the layout for a Finnish sauna booking website',
-            'Fix the image gallery for Northern Lights photos',
-            'Fix the language switcher on the Finnish website',
-			'Fix the login form for a Finnish game website',
-			'Fix the hover effect on the Finnish food blog',
-            'Fix the weather widget for a Finland travel blog',
-			'',
+            'Build a Finnish Railway Ticket Booking System',
+            '',
         ]
     },
     sweden: {
         name: 'Sweden',
         quests: [
-            'Build a Basic Calculator',
+            'Fix the Swedish Meatball Recipe Calculator',
         ]
     },
     norway: {

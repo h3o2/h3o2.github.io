@@ -3,116 +3,151 @@ const tasks = {
     finland: {
         name: 'Finland',
         quests: [
-  {
-    title: 'Fix the layout for a Finnish sauna booking website',
-    description: 'The layout is broken due to a small mistake. Fix the typo in the CSS to make the sauna booking page look nice.',
-    html: `<div class="sauna-booking">
-              <h1>Book a Sauna Experience</h1>
-              <img src="sauna.jpg" alt="Sauna Image">
-              <p>Relax in a Finnish sauna. Book now!</p>
-           </div>`,
-    css: `.souna-booking { /* Typo here! Should be "sauna-booking" */
-             width: 90%;
-             margin: auto;
-             text-align: center;
-           }`,
-    js: `// No JS needed for this task`
-  },
-  {
-    title: 'Fix the image gallery for Northern Lights photos',
-    description: 'The images are not showing correctly. There is a mistake in the CSS. Can you spot and fix it?',
-    html: `<div class="gallery">
-             <img src="northern-lights1.jpg" alt="Northern Lights 1">
-             <img src="northern-lights2.jpg" alt="Northern Lights 2">
-             <img src="northern-lights3.jpg" alt="Northern Lights 3">
-           </div>`,
-    css: `.galery { /* Typo here! Should be "gallery" */
-             display: grid;
-             grid-template-columns: repeat(3, 1fr);
-             gap: 10px;
-           }`,
-    js: `// No JS needed for this task`
-  },
-  {
-    title: 'Fix the language switcher on the Finnish website',
-    description: 'The language switcher isn’t working because of a small typo in the JavaScript code. Can you find it?',
-    html: `<select id="language-switcher">
-              <option value="en">English</option>
-              <option value="fi">Finnish</option>
-              <option value="sv">Swedish</option>
-           </select>
-           <p id="message">Welcome to the website!</p>`,
-    css: `#language-switcher {
-             margin: 10px;
-             padding: 5px;
-           }`,
-    js: `document.getElemntById('language-switcher') /* Typo here! Should be "getElementById" */
-           .addEventListener('change', (e) => {
-             const message = document.getElementById('message');
-             if (e.target.value === 'fi') {
-               message.textContent = 'Tervetuloa sivustolle!';
-             } else if (e.target.value === 'sv') {
-               message.textContent = 'Välkommen till webbplatsen!';
-             } else {
-               message.textContent = 'Welcome to the website!';
-             }
-           });`
-  },
-  {
-    title: 'Fix the login form for a Finnish game website',
-    description: 'There is a mistake in the CSS causing the button to look weird. Can you fix it?',
-    html: `<form id="login-form">
-             <label for="username">Username:</label>
-             <input type="text" id="username" required>
-             <label for="password">Password:</label>
-             <input type="password" id="password" required>
-             <button type="submit">Login</button>
-           </form>`,
-    css: `#login-form button {
-             pdding: 10px; /* Typo here! Should be "padding" */
-             background-color: #007ACC;
-             color: white;
-             border: none;
-           }`,
-    js: `// No JS needed for this task`
-  },
-  {
-    title: 'Fix the hover effect on the Finnish food blog',
-    description: 'The hover effect on the food images isn’t working because of a small typo in the CSS. Can you fix it?',
-    html: `<div class="food-gallery">
-             <img src="karjalanpiirakka.jpg" alt="Karelian pasty">
-             <img src="lohikeitto.jpg" alt="Salmon soup">
-           </div>`,
-    css: `.food-galery img { /* Typo here! Should be "food-gallery" */
-             width: 200px;
-             transition: tranform 0.3s ease; /* Typo here! Should be "transform" */
-           }
-           .food-gallery img:hover {
-             transform: scale(1.1);
-           }`,
-    js: `// No JS needed for this task`
-  },
-  {
-    title: 'Fix the weather widget for a Finland travel blog',
-    description: 'The weather widget isn’t showing the temperature because of a small typo in the JavaScript code. Can you fix it?',
-    html: `<div id="weather-widget">
-             <h2>Current Weather in Helsinki</h2>
-             <p id="temperature"></p>
-           </div>`,
-    css: `#weather-widget {
-             background-color: #f0f0f0;
-             padding: 20px;
-             text-align: center;
-             border-radius: 10px;
-           }`,
-    js: `fetch('https://api.openweathermap.org/data/2.5/weather?q=Helsinki&appid=YOUR_API_KEY')
-           .then(response => response.json())
-           .then(data => {
-             const temp = data.main.tempe - 273.15; /* Typo here! Should be "temp" */
-             document.getElementById('temperature').textContent = \`\${temp.toFixed(1)}°C\`;
-           });`
+          {
+            title: 'Fix the Finnish Railway Ticket Booking System',
+            description: 'The railway ticket booking system is almost complete, but there are some errors in the code that break its functionality. Can you spot and fix them? Use the comments as hints to help you debug.',
+            html: `<div class="ticket-booking">
+  <h1>Finnish Railway Ticket Booking</h1>
+
+  <form id="ticket-form">
+    <!-- Departure Station Selection -->
+    <label for="departure">Departure Station:</label>
+    <select id="departure" required>
+      <option value="Helsinki">Helsinki</option>
+      <option value="Tampere">Tampere</option>
+      <option value="Turku">Turku</option>
+      <option value="Rovaniemi">Rovaniemi</option>
+    </select>
+
+    <!-- Arrival Station Selection -->
+    <label for="arrival">Arrival Station:</label>
+    <select id="arrival" required>
+      <option value="Helsinki">Helsinki</option>
+      <option value="Tampere">Tampere</option>
+      <option value="Turku">Turku</option>
+      <option value="Rovaniemi">Rovaniemi</option>
+    </select>
+
+    <!-- Ticket Type Selection -->
+    <label for="ticket-type">Ticket Type:</label>
+    <select id="ticket-type" required>
+      <option value="standard">Standard</option>
+      <option value="first-class">First Class</option>
+    </select>
+
+    <!-- Discount Selection -->
+    <label for="discount">Discount:</label>
+    <select id="discount">
+      <option value="none">None</option>
+      <option value="student">Student</option>
+      <option value="senior">Senior (65+)</option>
+    </select>
+
+    <!-- Calculate Button -->
+    <button type="button" id="calculate">Calculate Total</button>
+  </form>
+
+  <!-- Display Total Price -->
+  <div class="price-display">
+    <p>Total Price: <span id="total-price">0€</span></p>
+  </div>
+</div>
+`,
+            css: `.ticket-booking {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #006AA7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004C6D;
+}
+
+.price-display {
+  margin-top: 20px;
+  font-size: 18px;
+}
+`,
+            js: `document.getElementById('calculate').addEventListener('click', function() {
+  const departure = document.getElementById('departure').value;
+  const arrival = document.getElementById('arrival').value;
+  const ticketType = document.getElementById('ticket-type').value;
+  const discount = document.getElementById('discount').value;
+
+  let route = departure + '-' + arrival;
+  if (departure === arrival) {
+    alert('Departure and Arrival stations must be different!');
+    return;
   }
-]
+
+  // Base prices for different routes (in EUR)
+  const priceMap = {
+    "Helsinki-Tampere": 20,
+    "Helsinki-Turku": 25,
+    "Helsinki-Rovaniemi": 50,
+    "Tampere-Turku": 15,
+    "Tampere-Rovaniemi": 40,
+    "Turku-Rovaniemi": 45
+  };
+
+  let basePrice = priceMap[route] || priceMap[arrival + '-' + departure];
+
+  // Issue #1: Missing condition for the first-class ticket
+  // Problem: First class price is not being added properly.
+  // Hint: Check if the code logic for adding first-class pricing is being triggered.
+  if (ticketType = 'first-class') {
+    basePrice += 10; // First class adds 10€ to the price
+  }
+
+  // Issue #2: Incorrect discount calculations
+  // Problem: Discount is not being applied to the ticket prices.
+  // Hint: Check the multiplication operator and ensure discount is applied properly.
+  if (discount == 'student') {
+    basePrice *= 0.2; // 20% discount for students
+  } else if (discount == 'senior') {
+    basePrice *= 0.3; // 30% discount for seniors
+  }
+
+  document.getElementById('total-price').textContent =  basePrice.toFixed(2) + '€';
+});
+`
+          }
+        ]
+        
+        
 
 
     },
@@ -120,147 +155,123 @@ const tasks = {
         name: 'Sweden',
         quests: [
           {
-            title: 'Build a Basic Calculator',
-            description: 'Complete the JavaScript code to make the calculator functional. It should handle addition, subtraction, multiplication, and division operations.',
-            html: `
-<div class="calculator">
-  <input type="text" id="calc-display" placeholder="0" readonly>
+            "title": "Fix the Swedish Meatball Recipe Calculator",
+            "description": "This recipe calculator for Swedish Meatballs has some issues that prevent it from giving the correct ingredients for different servings. Can you fix the code? Use the comments as hints to help you debug. Learn more about Swedish cuisine along the way!",
+            "html": `<div class="recipe-calculator">
+  <h1>Swedish Meatball Recipe Calculator</h1>
+  <p>Swedish meatballs (Köttbullar) are a popular traditional dish in Sweden. Adjust the number of servings, and the calculator will give you the right amount of ingredients!</p>
 
-  <div class="buttons">
-    <button class="btn num" data-num="7">7</button>
-    <button class="btn num" data-num="8">8</button>
-    <button class="btn num" data-num="9">9</button>
-    <button class="btn operator" data-operator="/">÷</button>
+  <form id="recipe-form">
+    <!-- Input for servings -->
+    <label for="servings">Number of Servings:</label>
+    <input type="number" id="servings" value="4" min="1" required>
 
-    <button class="btn num" data-num="4">4</button>
-    <button class="btn num" data-num="5">5</button>
-    <button class="btn num" data-num="6">6</button>
-    <button class="btn operator" data-operator="*">×</button>
+    <!-- Ingredients List (dynamic based on servings) -->
+    <div id="ingredients">
+      <h2>Ingredients:</h2>
+      <ul>
+        <li>400g ground beef</li>
+        <li>1 egg</li>
+        <li>100ml milk</li>
+        <li>50g breadcrumbs</li>
+        <li>Salt, pepper to taste</li>
+      </ul>
+    </div>
 
-    <button class="btn num" data-num="1">1</button>
-    <button class="btn num" data-num="2">2</button>
-    <button class="btn num" data-num="3">3</button>
-    <button class="btn operator" data-operator="-">-</button>
-
-    <button class="btn num" data-num="0">0</button>
-    <button class="btn" id="clear">C</button>
-    <button class="btn operator" data-operator="+">+</button>
-    <button class="btn" id="equals">=</button>
-  </div>
+    <!-- Button to calculate ingredients -->
+    <button type="button" id="calculate">Calculate Ingredients</button>
+  </form>
 </div>
-`,
-            css: `
-              .calculator {
-                width: 250px;
-                margin: 0 auto;
-                padding: 20px;
-                border: 1px solid #ccc;
-                border-radius: 10px;
-                text-align: center;
-                background-color: #f0f0f0;
-              }
-        
-              #calc-display {
-                width: 100%;
-                font-size: 24px;
-                padding: 10px;
-                text-align: right;
-                margin-bottom: 10px;
-                background-color: #fff;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-              }
-        
-              .buttons {
-                display: grid;
-                grid-template-columns: repeat(4, 1fr);
-                gap: 10px;
-              }
-        
-              .btn {
-                font-size: 18px;
-                padding: 15px;
-                background-color: #006AA7;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                transition: background-color 0.3s;
-              }
-        
-              .btn:hover {
-                background-color: #004C6D;
-              }
-        
-              .operator {
-                background-color: #004C6D;
-              }
-        
-              #clear {
-                background-color: #F44336;
-              }
             `,
-            js: `
-              const display = document.getElementById('calc-display');
-              let currentInput = '';
-              let previousInput = '';
-              let operator = '';
-        
-              // Handle number input
-              document.querySelectorAll('.num').forEach(button => {
-                button.addEventListener('click', () => {
-                  currentInput += button.getAttribute('data-num');
-                  display.value = currentInput;
-                });
-              });
-        
-              // Handle operators
-              document.querySelectorAll('.operator').forEach(button => {
-                button.addEventListener('click', () => {
-                  if (currentInput === '') return;
-                  operator = button.getAttribute('data-operator');
-                  previousInput = currentInput;
-                  currentInput = '';
-                });
-              });
-        
-              // Handle equal button
-              document.getElementById('equals').addEventListener('click', () => {
-                if (previousInput === '' || currentInput === '' || operator === '') return;
-        
-                const result = calculate(parseFloat(previousInput), parseFloat(currentInput), operator);
-                display.value = result;
-                currentInput = result.toString();
-                previousInput = '';
-                operator = '';
-              });
-        
-              // Handle clear button
-              document.getElementById('clear').addEventListener('click', () => {
-                currentInput = '';
-                previousInput = '';
-                operator = '';
-                display.value = '0';
-              });
-        
-              // Calculate the result
-              function calculate(num1, num2, operator) {
-                switch (operator) {
-                  case '+':
-                    return num1 + num2;
-                  case '-':
-                    return num1 - num2;
-                  case '*':
-                    return num1 * num2;
-                  case '/':
-                    return num1 / num2;
-                  default:
-                    return 0;
-                }
-              }
+            "css": `.recipe-calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #006AA7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004C6D;
+}
+
+#ingredients {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+            `,
+            "js": `document.getElementById('calculate').addEventListener('click', function() {
+  const servings = document.getElementById('servings').value;
+
+  // Issue #1: Conversion error
+  // Problem: The calculations aren't correct because the base values for ingredients are not properly set.
+  // Hint: Double-check if the base ingredient values are assigned properly.
+  let baseIngredients = {
+    beef: 0, // 400g ground beef for 4 servings
+    egg: 0,    // 1 egg
+    milk: 0, // 100ml milk
+    breadcrumbs: 0 // 50g breadcrumbs
+  };
+
+  // Issue #2: Logic error in serving calculation
+  // Problem: The number of servings isn't being considered correctly in the calculation.
+  // Hint: Make sure you multiply the ingredients correctly based on the number of servings.
+  let multiplier = servings / 2;
+
+  let beef = baseIngredients.beef * multiplier; 
+  let egg = baseIngredients.egg * multiplier; 
+  let milk = baseIngredients.milk * multiplier; 
+  let breadcrumbs = baseIngredients.breadcrumbs * multiplier;
+
+  document.getElementById('ingredients').innerHTML = \`
+    <h2>Ingredients for \${servings} servings:</h2>
+    <ul>
+      <li>\${beef}g ground beef</li>
+      <li>\${Math.ceil(egg)} egg(s)</li> <!-- Rounding eggs since we can't have a fraction of an egg -->
+      <li>\${milk}ml milk</li>
+      <li>\${breadcrumbs}g breadcrumbs</li>
+      <li>Salt, pepper to taste</li>
+    </ul>
+  \`;
+
+  // Bonus Fact: Display an interesting fact about Swedish meatballs
+  alert("Did you know? Swedish meatballs became famous worldwide after being introduced by IKEA in the 1980s!");
+});
             `
           }
-        ]
+        ]        
       }   
     
     // Add more countries and tasks here...
