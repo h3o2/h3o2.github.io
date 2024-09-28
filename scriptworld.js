@@ -16,13 +16,13 @@ const tasks = {
     norway: {
         name: 'Norway',
         quests: [
-            '',
+            'Utforsk Norges kultur og natur',
         ]
     },
-    russia: {
-        name: 'Russia',
+    china: {
+        name: 'China',
         quests: [
-            '',
+            'Create a Chinese Local E-Commerce Website',
         ]
     },
     greenland: {

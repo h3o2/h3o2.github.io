@@ -272,7 +272,319 @@ button:hover {
             `
           }
         ]        
-      }   
+      },
+      norway: {
+        name: 'Norway',
+        quests: [
+          {
+            title: 'Build a Local Cafe Website',
+            description: 'Create a mobile-friendly cafe website with a minimalistic design, popular in Norway. Ensure the navigation, content, and payment features work correctly.',
+            html: `<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <h1>Welcome to Nordic Cafe</h1>
+        <p>Enjoy the best coffee in the heart of Norway.</p>
+      </section>
+
+      <!-- Menu Section -->
+      <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+          <h3>Cappuccino</h3>
+          <p>Price: 40 NOK</p>
+        </div>
+        <div class="menu-item">
+          <h3>Latte</h3>
+          <p>Price: 45 NOK</p>
+        </div>
+        <div class="menu-item">
+          <h3>Espresso</h3>
+          <p>Price: 30 NOK</p>
+        </div>
+        <!-- TODO: Add more items to the menu -->
+      </section>
+
+      <!-- Currency Converter -->
+      <section id="converter">
+        <h2>Currency Converter</h2>
+        <label for="amount">Amount in NOK:</label>
+        <input type="number" id="amount" placeholder="Enter NOK amount">
+        <button id="convert-btn">Convert to USD</button>
+        <p id="converted-amount">Amount in USD: </p>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Nordic Cafe is a family-run cafe offering the best coffee experience in Oslo.</p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Contact us at: info@nordiccafe.no | Phone: +47 123 456 789</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+  </html>
+`,
+            css: `/* Mobile-First Approach */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+main {
+  padding: 1em;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.menu-item {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5em 0;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  nav ul {
+    justify-content: flex-start;
+  }
+  nav a {
+    margin-right: 2em;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+`,
+            js: `// Currency Converter Logic
+document.getElementById('convert-btn').addEventListener('click', function() {
+  const amount = document.getElementById('amount').value;
+  const rate = 0.11; // 1 NOK = 0.11 USD (example rate)
+
+  document.getElementById('converted-amount').innerText = "Amount in USD: " + (amount * rate).toFixed(2);
+});
+
+// TODO: Add more JS functionality, e.g., a payment gateway option for Norwegian customers.
+`
+          }
+        ]
+      
+      },
+      china: {
+        name: 'China',
+        quests: [
+          {
+            title: 'Create a Chinese Local E-Commerce Website',
+            description: 'Design an e-commerce website with a product gallery and Chinese payment methods like WeChat Pay and Alipay. Make it mobile-friendly and interactive.',
+            html: `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>China Market</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#payment">Payment Methods</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <h1>Welcome to China Market</h1>
+      <p>Buy authentic products with fast shipping across China.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="product-item">
+        <h3>Smartphone</h3>
+        <p>Price: ¥5000</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <div class="product-item">
+        <h3>Laptop</h3>
+        <p>Price: ¥8000</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <div class="product-item">
+        <h3>Wireless Headphones</h3>
+        <p>Price: ¥1200</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <!-- TODO: Add more products dynamically using JS -->
+    </section>
+
+    <!-- Payment Methods Section -->
+    <section id="payment">
+      <h2>Payment Methods</h2>
+      <p>Select your preferred payment option:</p>
+      <ul>
+        <li>WeChat Pay</li>
+        <li>Alipay</li>
+        <!-- TODO: Add form for payment selection and handling -->
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact us: support@chinamarket.cn | Phone: +86 123 4567 890</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+`,
+            css: `/* Mobile-First Styles */
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+nav {
+  background-color: #ff5722;
+  color: white;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.product-item {
+  background-color: white;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buy-btn {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  nav ul {
+    justify-content: flex-start;
+  }
+  nav a {
+    margin-right: 2em;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+`,
+            js: `// Basic functionality for "Buy Now" buttons
+const buyButtons = document.querySelectorAll('.buy-btn');
+buyButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    alert('Thank you for your purchase! Payment methods are available in the next section.');
+  });
+});
+
+// TODO: Add JS logic for handling payments dynamically.
+// HINT: Create a form with WeChat Pay and Alipay payment options. 
+// Make sure to trigger the form when the user clicks a product to "buy".
+
+// Add logic for dynamically updating the product list using JS instead of hardcoded HTML.
+// For example, you can store product data in an array and loop through it to display all products.
+`
+          }
+        ]
+      },
+      usa: {
+        name: 'USA',
+        
+      }
     
     // Add more countries and tasks here...
 };

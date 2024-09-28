@@ -459,6 +459,10 @@ pre code {
     fill: #ffcc00;
 }
 
+#task-description{
+    text-align: center;
+}
+
 /* Dropdown menu styling */
 .task-dropdown {
     justify-content: center;
@@ -514,10 +518,10 @@ pre code {
 
 textarea {
     width: 100%;                /* Make text areas take the full width of their containers */
-    height: 200px;              /* Set a default height */
+    height: 400px;              /* Set a default height */
     padding: 10px;              /* Add padding inside the textarea */
     box-sizing: border-box;     /* Include padding and borders in the width */
-    font-family: monospace;     /* Use monospace font for code */
+    font-family: monospace;   /* Use monospace font for code */
     border: 1px solid #ccc;     /* Border around text areas */
     border-radius: 5px;         /* Rounded corners */
     resize: vertical;           /* Allow vertical resizing */
@@ -531,8 +535,9 @@ textarea {
 #preview-frame {
     width: 100%;                /* Full width of its container */
     height: 1080px;              /* Set height for the iframe */
-    border: 1px solid #ccc;
+    border: 3px dashed #ccc;
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 
 /* Buttons styling */
@@ -548,6 +553,22 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#reset-code {
+    background-color: gray;
+}
+
+#reset-code:hover {
+    background-color: rgb(113, 113, 113);
+}
+
+#return-to-map {
+    background-color: gray;
+}
+
+#return-to-map:hover {
+    background-color: rgb(113, 113, 113);
 }
 
 button:hover {
