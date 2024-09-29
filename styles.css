@@ -450,8 +450,8 @@ pre.pree code.codee {
     margin: auto auto 200px auto;
     padding: 10px;
     border-radius: 10px;
-    position: absolute;
-    top: 200px;
+    position: fixed;
+    top: 155px;
     left: 25%; 
 }
 
