@@ -6,9 +6,9 @@
     <title>Task Challenge</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="boody">
     <div id="navbar"></div>
-    <h1 id="task-title" style="text-align: center;">Task Title</h1>
+    <h1 id="task-title" class="hoo1" style="text-align: center;">Task Title</h1>
     <p id="task-description" style="text-align: center;">Task description goes here...</p>
 
     <div class="task-editor">
@@ -18,30 +18,30 @@
       <div class="editor-container">
         <div class="editor">
           <h3 style="text-align: center;">HTML</h3>
-          <textarea id="html-editor" rows="10" spellcheck="false"></textarea>
+          <textarea class="monobox" id="html-editor" rows="10" spellcheck="false"></textarea>
         </div>
 
         <div class="editor">
           <h3 style="text-align: center;">CSS</h3>
-          <textarea id="css-editor" rows="10" spellcheck="false"></textarea>
+          <textarea class="monobox" id="css-editor" rows="10" spellcheck="false"></textarea>
         </div>
 
         <div class="editor">
           <h3 style="text-align: center;">JavaScript</h3>
-          <textarea id="js-editor" rows="10" spellcheck="false"></textarea>
+          <textarea class="monobox" id="js-editor" rows="10" spellcheck="false"></textarea>
         </div>
       </div>
 
       <div style="text-align: center;" class="actions">
-        <button id="run-code">Run Code</button>
-        <button id="reset-code">Reset Code</button>
-        <a href="/world.html"><button id="return-to-map">Return to map</button></a>
-        <button id="mobile-preview">Mobile Preview</button>
+        <button class="mainBtn" id="run-code">Run Code</button>
+        <button class="mainBtn" id="reset-code">Reset Code</button>
+        <a href="/world.html"><button class="mainBtn" id="return-to-map">Return to map</button></a>
+        <button class="mainBtn" id="mobile-preview">Mobile Preview</button>
       </div>
 
       <div class="preview-container">
         <h3 style="text-align: center;">Live Preview</h3>
-        <iframe id="preview-frame"></iframe>
+        <iframe id="preview-frame" sandbox="allow-same-origin"></iframe>
       </div>
     </div>
 

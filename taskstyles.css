@@ -1,0 +1,105 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#taskermaster {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.output-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Style for the editor container */
+.editor-container {
+    display: flex;              /* Enable flexbox */
+    gap: 20px;                  /* Space between fields */
+    justify-content: space-around;  /* Distribute space around the fields */
+    margin: 20px;        /* Add some margin below the editors */
+}
+
+/* Style for each individual editor */
+.editor {
+    flex: 1;                    /* Allow each editor to take equal width */
+    min-width: 200px;           /* Ensure a minimum width */
+}
+
+textarea {
+    width: 100%;                /* Make text areas take the full width of their containers */
+    height: 400px;              /* Set a default height */
+    padding: 10px;              /* Add padding inside the textarea */
+    box-sizing: border-box;     /* Include padding and borders in the width */
+    font-family: monospace;   /* Use monospace font for code */
+    border: 1px solid #ccc;     /* Border around text areas */
+    border-radius: 5px;         /* Rounded corners */
+    resize: vertical;           /* Allow vertical resizing */
+}
+
+/* Styling the preview frame */
+.preview-container {
+    margin-top: 20px;
+}
+
+#preview-frame {
+    width: 100%;                /* Full width of its container */
+    height: 1080px;              /* Set height for the iframe */
+    border: 3px dashed #ccc;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+/* Buttons styling */
+.actions {
+    margin-bottom: 20px;
+}
+
+button#run-code {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#run-code:hover {
+    background-color: #45a049;
+}
+
+button#reset-code, button#return-to-map, button#mobile-preview {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#reset-code:hover, button#return-to-map:hover, button#mobile-preview:hover {
+    background-color: rgb(113, 113, 113);
+}
+
+@media (max-width: 1024px) {
+   
+    .editor-container {
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+
+    #mobile-preview {
+        display: none;
+    }
+}

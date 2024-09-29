@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 
-body {
+body.boody {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
     line-height: 1.6;
 }
 
-header {
+header.heeder {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -20,11 +20,11 @@ header {
     width: 100%;
 }
 
-h1 {
+h1.hoo1 {
     font-size: 2.5em;
 }
 
-main {
+main.maain {
     padding: 20px;
 }
 
@@ -181,7 +181,7 @@ main {
     cursor: pointer;
 }
 
-footer {
+footer.footr {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -202,7 +202,7 @@ footer {
       
 }
 
-.website-tutorial p, ol {
+p.website-tutorial, ol.website-tutorial {
     line-height: 2.0;
     margin-bottom: 30px;
   }
@@ -211,7 +211,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.website-tutorial ol, ul {
+ol.website-tutorial, ul.website-tutorial {
     margin-left: 30px;
 }
 
@@ -228,16 +228,16 @@ footer {
     margin: 2px;
 }
 
-video {
+video.vidz {
     margin: 15px 2px;
     max-width: 100%;
 }
 
-.help body {
+body.help  {
     font-family: Arial, sans-serif;
 }
   
-.help label, input, textarea {
+label.help, input.helpp, textarea.helpp {
     display: block;
     width: 100%;
     margin: 10px 0;
@@ -246,7 +246,7 @@ video {
     border-radius: 10px;;
 }
   
-.help button {
+.help button.mainBtn {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -256,13 +256,13 @@ video {
     font-size: large;
 }
 
-summary {
+summary.yht {
     border: 1px solid white;
     padding: 3px;
     cursor: pointer;
 }
 
-pre code {
+pre.pree code.codee {
     width: 100%;
     background-color: #eee;
     border: 1px solid #999;
@@ -271,7 +271,7 @@ pre code {
     margin: 10px 0;
   }
 
-  pre {
+  pre.pree {
     white-space: pre-wrap;       /* Since CSS 2.1 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -493,7 +493,7 @@ pre code {
     min-width: 200px;           /* Ensure a minimum width */
 }
 
-textarea {
+textarea.monobox {
     width: 100%;                /* Make text areas take the full width of their containers */
     height: 400px;              /* Set a default height */
     padding: 10px;              /* Add padding inside the textarea */
@@ -522,7 +522,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-button {
+button.mainBtn {
     padding: 10px 20px;
     margin-right: 10px;
     background-color: #4CAF50;
@@ -548,7 +548,7 @@ button {
     background-color: rgb(113, 113, 113);
 }
 
-button:hover {
+button.mainBtn:hover {
     background-color: #45a049;
 }
 
