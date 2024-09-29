@@ -653,3 +653,14 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Task not found!');
     }
 });
+
+//Mobile Preview button toggle functionality
+document.getElementById('mobile-preview').addEventListener('click', function() {
+  if(document.getElementById('mobile-preview').innerHTML == 'Mobile Preview'){
+    document.getElementById('preview-frame').style.width = '375px';
+    document.getElementById('mobile-preview').innerHTML = 'Desktop Preview';
+} else {
+  document.getElementById('preview-frame').style.width = '100%';
+  document.getElementById('mobile-preview').innerHTML = 'Mobile Preview';
+}
+});

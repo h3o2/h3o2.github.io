@@ -91,29 +91,6 @@ main {
     background-color: rgb(0, 0, 0);
     margin: 5px 4px;
   }
-  
-  @media (max-width: 1024px) {
-    .navbar-links {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 50px;
-      right: 0;
-      background-color: #333;
-      width: 100%;
-      text-align: center;
-      padding: 1rem 0;
-      z-index: 1000;
-    }
-  
-    .navbar-toggle {
-      display: flex;
-    }
-  
-    .navbar-links.active {
-      display: flex;
-    }
-  }
 
   .paypal-button {
     background: none;
@@ -443,7 +420,7 @@ pre code {
 #world-map {
     width: 100vw;
     height: auto;
-    background: url(images/mapbase.png);
+    background: url(images/mapbase.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -507,7 +484,7 @@ pre code {
     display: flex;              /* Enable flexbox */
     gap: 20px;                  /* Space between fields */
     justify-content: space-around;  /* Distribute space around the fields */
-    margin-bottom: 20px;        /* Add some margin below the editors */
+    margin: 20px;        /* Add some margin below the editors */
 }
 
 /* Style for each individual editor */
@@ -574,3 +551,35 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+@media (max-width: 1024px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+      z-index: 1000;
+    }
+  
+    .navbar-toggle {
+      display: flex;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+
+    .editor-container {
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+
+    #mobile-preview {
+        display: none;
+    }
+  }

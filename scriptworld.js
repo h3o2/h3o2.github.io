@@ -16,7 +16,7 @@ const tasks = {
     norway: {
         name: 'Norway',
         quests: [
-            'Utforsk Norges kultur og natur',
+            'Build a Local Cafe Website',
         ]
     },
     china: {
