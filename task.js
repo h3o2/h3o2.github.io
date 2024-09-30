@@ -623,7 +623,7 @@ document.addEventListener('DOMContentLoaded', () => {
         function runCode() {
             const html = htmlEditor.value;
             const css = `<style>${cssEditor.value}</style>`;
-            const js = `<script>${jsEditor.value}<\/script>`;
+            const js = `<script>${jsEditor.value}</script>`;
 
             const previewContent = `
                 ${html}
