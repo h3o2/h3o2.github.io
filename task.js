@@ -664,3 +664,34 @@ document.getElementById('mobile-preview').addEventListener('click', function() {
   document.getElementById('mobile-preview').innerHTML = 'Mobile Preview';
 }
 });
+
+//Hide and show editors in mobile mode
+document.getElementById('html-edit').addEventListener('click', function() {
+  if(document.getElementById('html-edit').innerHTML == 'Hide'){
+    document.getElementById('html-editor').style.display = 'none';
+    document.getElementById('html-edit').innerHTML = 'Show';
+  } else {
+    document.getElementById('html-editor').style.display = 'block';
+    document.getElementById('html-edit').innerHTML = 'Hide';
+  }
+});
+
+document.getElementById('css-edit').addEventListener('click', function() {
+  if(document.getElementById('css-edit').innerHTML == 'Hide'){
+    document.getElementById('css-editor').style.display = 'none';
+    document.getElementById('css-edit').innerHTML = 'Show';
+  } else {
+    document.getElementById('css-editor').style.display = 'block';
+    document.getElementById('css-edit').innerHTML = 'Hide';
+  }
+});
+
+document.getElementById('js-edit').addEventListener('click', function() {
+  if(document.getElementById('js-edit').innerHTML == 'Hide'){
+    document.getElementById('js-editor').style.display = 'none';
+    document.getElementById('js-edit').innerHTML = 'Show';
+  } else {
+    document.getElementById('js-editor').style.display = 'block';
+    document.getElementById('js-edit').innerHTML = 'Hide';
+  }
+});

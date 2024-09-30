@@ -552,6 +552,10 @@ button.mainBtn:hover {
     background-color: #45a049;
 }
 
+button.togBtn {
+    display: none;
+}
+
 @media (max-width: 1024px) {
     .navbar-links {
       display: none;
@@ -582,4 +586,27 @@ button.mainBtn:hover {
     #mobile-preview {
         display: none;
     }
+
+    button.togBtn {
+        display: initial;
+        width: 75px;
+        padding: 10px 20px;
+        margin: 10px 10px 10px 0;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    h3.taskEditTitle {
+        display: flex;
+        justify-content: start; /* Align the button to the left and text to the right */
+        align-items: center; /* Vertically center both button and title */
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+        width: 175px;
+        margin: 10px auto;
+      }
+
   }
