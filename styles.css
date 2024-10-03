@@ -427,14 +427,21 @@ pre.pree code.codee {
 }
 
 /* Country interaction */
-.country {
+path {
     cursor: pointer;
     transition: fill 0.3s ease;
+    fill: #ffffff !important;
 }
 
-.country:hover {
-    fill: #ffcc00;
+.country > path {
+    fill: rgb(3, 163, 8) !important;
 }
+
+path:hover {
+    fill: #00ff00 !important;
+}
+
+
 
 #task-description{
     text-align: center;

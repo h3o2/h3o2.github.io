@@ -25,10 +25,12 @@ const tasks = {
             'Create a Chinese Local E-Commerce Website',
         ]
     },
-    greenland: {
-        name: 'Greenland',
+    russia: {
+        name: 'Russia',
         quests: [
-            '',
+            'Russian Landmarks Page',
+            'Russian History Quiz',
+            'Create a Russian Flag',
         ]
     },
     canada: {
@@ -40,7 +42,8 @@ const tasks = {
     usa: {
         name: 'USA',
         quests: [
-            '',
+            'Coffee Shop Website: Bean and Gone',
+            'Catch the Falling Stars'
         ]
     },
     alaska: {
@@ -97,29 +100,22 @@ document.getElementById("close-dropdown-button").addEventListener("click", () =>
     dropdown.style.display = 'none';
 })
 
-document.addEventListener('DOMContentLoaded', function () {
-    const svgObject = document.getElementById('world-map');
 
-    // Add an event listener to detect when the SVG file is fully loaded
-    svgObject.addEventListener('load', function () {
-        // Access the SVG document inside the <object>
-        const svgDoc = svgObject.contentDocument;
 
-        // Now you can select elements inside the SVG using the svgDoc
-        const countries = svgDoc.querySelectorAll('.country');
+   
+// Now you can select elements inside the SVG using the svgDoc
+const countries = document.querySelectorAll('.country');
 
-        // Attach event listeners to the country elements
-        countries.forEach(country => {
-            country.addEventListener('click', function () {
-                const countryId = this.id;  // Get the ID of the clicked country
-                console.log('Country clicked:', countryId);  // Debugging: Log the country ID
-                
-                // Show the dropdown and tasks if the country has defined tasks
-                if (tasks[countryId]) {
-                    showDropdown(countryId); 
-                }
-            });
-        });
+// Attach event listeners to the country elements
+countries.forEach(country => {
+    country.addEventListener('click', function () {
+        const countryId = this.id;  // Get the ID of the clicked country
+        console.log('Country clicked:', countryId);  // Debugging: Log the country ID
+        
+        // Show the dropdown and tasks if the country has defined tasks
+        if (tasks[countryId]) {
+            showDropdown(countryId); 
+        }
     });
 });
 

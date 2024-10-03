@@ -583,6 +583,539 @@ buyButtons.forEach(button => {
       },
       usa: {
         name: 'USA',
+        quests: [
+          {
+            title: 'Coffee Shop Website: Bean and Gone',
+            description: 'Build a website for a local coffee shop with a humorous touch and interactive features.',
+            html: `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean and Gone - Local Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home">
+            <h1>Welcome to Bean and Gone</h1>
+            <p>Where the coffee is strong, and so are our Wi-Fi passwords!</p>
+            <!-- Coffee of the Day App -->
+            <div id="coffee-of-the-day">
+                <h2>What's the Coffee of the Day?</h2>
+                <button id="reveal-coffee">Reveal</button>
+                <p id="coffee-message"></p>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>Espresso - $3</li>
+                <li>Latte - $4</li>
+                <li>Cappuccino - $4.5</li>
+                <li>Americano - $3.5</li>
+                <!-- TASK: Add one more item to the menu with price -->
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Bean and Gone was founded in 2020 with the mission to serve the best coffee and the worst jokes. It's true - we grind both daily!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Got a joke to share or need coffee advice? Email us at <a href="mailto:coffee@beanandgone.com">coffee@beanandgone.com</a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Store Hours: Mon-Fri 7am-6pm | Sat-Sun 8am-4pm</p>
+        <p>&copy; 2024 Bean and Gone | Follow us on <a href="#">Instagram</a> and <a href="#">Twitter</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+`,
+            css: `/* Basic Styling */
+body {
+    font-family: 'Arial', sans-serif; /* A font commonly used in the USA */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+nav {
+    background-color: #4B2A1E; /* Coffee-colored navbar */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #4B2A1E;
+}
+
+#coffee-of-the-day {
+    background-color: #e0d8cc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+footer {
+    background-color: #4B2A1E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+`,
+            js: `// JavaScript for Coffee of the Day and humor
+document.getElementById('reveal-coffee').addEventListener('click', function() {
+    const coffees = [
+        'Espresso - Strong and Bold!',
+        'Latte - Smooth and Steamy!',
+        'Cappuccino - Frothy Fun!',
+        'Americano - Not Just for Patriots!'
+    ];
+
+    const jokes = [
+        'Why did the coffee file a police report? It got mugged!',
+        'What’s a coffee’s favorite movie? A Mug-nificent Seven!',
+        'How does Moses make coffee? Hebrews it!',
+        'Why do coffee beans never gossip? They know how to keep it grounded!'
+    ];
+
+    // Random Coffee of the Day
+    const randomCoffee = coffees[Math.floor(Math.random() * coffees.length)];
+
+    // Random Joke
+    const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
+
+    // Display both coffee and joke
+    document.getElementById('coffee-message').innerHTML = \`\${randomCoffee}<br><strong>Joke of the day:</strong> \${randomJoke}\`;
+});
+
+// TASK: The Coffee button doesn't show anything! What’s wrong? HINT: Look for the missing connection in the script.
+`
+          },
+          {
+            title: 'Catch the Falling Stars',
+    description: 'In this game, you have to catch the falling stars in your basket. The more stars you catch, the higher your score! Use your mouse to move the basket left and right.',
+    html: `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch the Falling Stars</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Catch the Falling Stars!</h1>
+  <div id="gameArea">
+    <div id="basket"></div>
+  </div>
+  <div id="scoreBoard">Score: <span id="score">0</span></div>
+  <button id="startButton">Start Game</button>
+  <div id="gameOver" style="display:none;">Game Over! Your score is: <span id="finalScore"></span></div>
+</body>
+</html>
+`,
+    css: `body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: white;
+}
+
+#gameArea {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  border: 2px solid #fff;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+#basket {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 80px;
+  height: 20px;
+  background-color: #0af;
+  transform: translateX(-50%);
+}
+
+.star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+#scoreBoard {
+  margin: 20px;
+  font-size: 24px;
+}
+
+#gameOver {
+  font-size: 28px;
+  color: red;
+}
+`,
+    js: `let score = 0;
+let isGameRunning = false;
+let starInterval;
+
+const basket = document.getElementById('basket');
+const scoreDisplay = document.getElementById('score');
+const startButton = document.getElementById('startButton');
+const gameOverDisplay = document.getElementById('gameOver');
+const finalScoreDisplay = document.getElementById('finalScore');
+const gameArea = document.getElementById('gameArea');
+
+function startGame() {
+  score = 0;
+  isGameRunning = true;
+  scoreDisplay.innerText = score;
+  gameOverDisplay.style.display = 'none';
+  moveBasket();
+
+  // Start spawning stars every second
+  starInterval = setInterval(() => {
+    spawnStar();
+  }, 1000);
+}
+
+function moveBasket() {
+  document.addEventListener('mousemove', (event) => {
+    const rect = gameArea.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    if (mouseX >= 0 && mouseX <= rect.width) {
+      basket.style.left = mouseX - 40 + 'px'; // 40 is half the basket's width
+    }
+  });
+}
+
+function spawnStar() {
+  const star = document.createElement('div');
+  star.classList.add('star');
+  const starPosition = Math.random() * (gameArea.clientWidth - 20);
+  star.style.left = starPosition + 'px';
+  star.style.top = '0px';
+  gameArea.appendChild(star);
+  fallStar(star);
+}
+
+function fallStar(star) {
+  let fallingInterval = setInterval(() => {
+    const starTop = parseInt(star.style.top) || 0;
+    if (starTop >= gameArea.clientHeight - 20) {
+      clearInterval(fallingInterval);
+      endGame();
+      star.remove(); // Remove the star when it reaches the bottom
+    } else {
+      star.style.top = starTop + 5 + 'px'; // Move the star down
+    }
+
+    // Check for catch
+    if (isCaught(star)) {
+      score++;
+      scoreDisplay.innerText = score;
+      star.remove(); // Remove the star when caught
+      clearInterval(fallingInterval);
+    }
+  }, 50);
+}
+
+function isCaught(star) {
+  const basketRect = basket.getBoundingClientRect();
+  const starRect = star.getBoundingClientRect();
+
+  return (
+    starRect.bottom >= basketRect.top &&
+    starRect.top <= basketRect.bottom &&
+    starRect.right >= basketRect.left &&
+    starRect.left <= basketRect.right
+  );
+}
+
+function endGame() {
+  clearInterval(starInterval);
+  isGameRunning = false;
+  gameOverDisplay.style.display = 'block';
+  finalScoreDisplay.innerText = score;
+}
+
+startButton.addEventListener('click', startGame);
+    `
+
+          },        ]
+        
+      },
+      russia: {
+        name: 'Russia',
+        quests: [
+          {
+            title: 'Russian Landmarks Page',
+            description: 'Create a simple webpage that introduces famous landmarks in Russia. Style the page to make it visually appealing and interactive.',
+            html: `<div class="container">
+  <header class="header">
+    <h1>Famous Russian Landmarks</h1>
+  </header>
+  <main class="main-content">
+    <section>
+      <h2>Moscow Kremlin</h2>
+      <img src="kremlin.jpg" alt="Kremlin" class="landmark-image">
+      <p>The Moscow Kremlin is a historic fortified complex in the heart of Moscow.</p>
+    </section>
+    <section>
+      <h2>St. Basil's Cathedral</h2>
+      <img src="st-basil.jpg" alt="St. Basil's Cathedral" class="landmark-image">
+      <p>Known for its colorful onion domes, St. Basil's Cathedral is a symbol of Russia's unique architecture.</p>
+    </section>
+    <button id="learnMore">Learn More</button>
+  </main>
+  <footer class="footer">
+    <p>Russia Landmarks © 2024</p>
+  </footer>
+</div>
+            `,
+            css: `/* General Page Styling */
+body {
+  font-family: 'Arial, sans-serif';
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #d32f2f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+  color: #d32f2f;
+}
+
+.landmark-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #d32f2f;
+  color: #fff;
+}
+
+button {
+  background-color: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+            `,
+            js: `
+// JavaScript functionality to show more information about Russian landmarks
+document.getElementById('learnMore').addEventListener('click', function() {
+  alert('Russia is home to many beautiful landmarks including the Moscow Kremlin and St. Basil\'s Cathedral.');
+});
+            `
+          },
+          {
+            title: 'Russian History Quiz',
+            description: 'Create a quiz page to test users on their knowledge of Russian history. Use HTML for the structure, CSS for styling, and JavaScript for quiz functionality.',
+            html: `<div class="quiz-container">
+  <header class="quiz-header">
+    <h1>Test Your Russian History Knowledge</h1>
+  </header>
+  <main class="quiz-content">
+    <form id="historyQuiz">
+      <div class="quiz-question">
+        <h3>Who was the first Tsar of Russia?</h3>
+        <input type="radio" name="question1" value="Ivan IV"> Ivan IV<br>
+        <input type="radio" name="question1" value="Peter I"> Peter I<br>
+        <input type="radio" name="question1" value="Nicholas II"> Nicholas II<br>
+      </div>
+      <div class="quiz-question">
+        <h3>When did the Russian Revolution take place?</h3>
+        <input type="radio" name="question2" value="1905"> 1905<br>
+        <input type="radio" name="question2" value="1917"> 1917<br>
+        <input type="radio" name="question2" value="1945"> 1945<br>
+      </div>
+      <button type="submit">Submit Quiz</button>
+    </form>
+    <div id="quizResult"></div>
+  </main>
+</div>
+            `,
+            css: `/* Quiz Page Styling */
+.quiz-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+            `,
+            js: `// JavaScript functionality to handle quiz submission and calculate result
+document.getElementById('historyQuiz').addEventListener('submit', function(event) {
+  event.preventDefault();
+  let score = 0;
+  
+  // Check answers
+  if (document.querySelector('input[name="question1"]:checked').value === "Ivan IV") {
+    score++;
+  }
+  if (document.querySelector('input[name="question2"]:checked').value === "1917") {
+    score++;
+  }
+
+  // Show result
+  document.getElementById('quizResult').innerHTML = 'Your score: ' + score + '/2';
+});
+            `
+          },
+          {
+            title: 'Create a Russian Flag',
+            description: 'Use HTML and CSS to create a simple representation of the Russian flag. No images allowed, only pure CSS for styling.',
+            html: `<div class="flag-container">
+  <div class="flag white"></div>
+  <div class="flag blue"></div>
+  <div class="flag red"></div>
+</div>
+            `,
+            css: `/* Russian Flag Representation */
+.flag-container {
+  width: 300px;
+  border: 2px solid black;
+}
+
+.flag {
+  height: 100px;
+  width: 100%;
+}
+
+.white {
+  background-color: white;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+            `,
+            js: `
+// No JavaScript functionality is needed for this task.
+            `
+          }
+        ]        
+      },
+      india: {
+        name: 'India',
         
       }
     
