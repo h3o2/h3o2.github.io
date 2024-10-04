@@ -1198,7 +1198,7 @@ document.getElementById('mobile-preview').addEventListener('click', function() {
 }
 });
 
-//Hide and show editors in mobile mode
+//Hide and show editors
 document.getElementById('html-edit').addEventListener('click', function() {
   if(document.getElementById('html-edit').innerHTML == 'Hide'){
     document.getElementById('html-editor').style.display = 'none';
@@ -1226,5 +1226,15 @@ document.getElementById('js-edit').addEventListener('click', function() {
   } else {
     document.getElementById('js-editor').style.display = 'block';
     document.getElementById('js-edit').innerHTML = 'Hide';
+  }
+});
+
+document.getElementById('view-toggl').addEventListener('click', function() {
+  if(document.getElementById('view-toggl').innerHTML == 'Full width') {
+    document.getElementById('editor-container').style.display = 'block';
+    document.getElementById('view-toggl').innerHTML = 'Side by side';
+  } else {
+    document.getElementById('editor-container').style.display = 'flex';
+    document.getElementById('view-toggl').innerHTML = 'Full width';
   }
 });

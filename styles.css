@@ -501,6 +501,7 @@ path:hover {
 }
 
 textarea.monobox {
+    display: none;
     width: 100%;                /* Make text areas take the full width of their containers */
     height: 400px;              /* Set a default height */
     padding: 10px;              /* Add padding inside the textarea */
@@ -560,8 +561,26 @@ button.mainBtn:hover {
 }
 
 button.togBtn {
-    display: none;
+    display: initial;
+        width: 75px;
+        padding: 10px 20px;
+        margin: 10px 10px 10px 0;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
 }
+
+h3.taskEditTitle {
+    display: flex;
+    justify-content: start; /* Align the button to the left and text to the right */
+    align-items: center; /* Vertically center both button and title */
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    width: 175px;
+    margin: 10px auto;
+  }
 
 @media (max-width: 1024px) {
     .navbar-links {
@@ -586,7 +605,7 @@ button.togBtn {
     }
 
     .editor-container {
-        display: block;
+        display: block !important;
         margin: 20px 20px 20px 20px;
     }
 
@@ -615,5 +634,9 @@ button.togBtn {
         width: 175px;
         margin: 10px auto;
       }
+
+    #view-toggl {
+        display: none;
+    }
 
   }
