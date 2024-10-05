@@ -3,31 +3,35 @@ const tasks = {
     finland: {
         name: 'Finland',
         quests: [
+            'Playground',
             'Build a Finnish Railway Ticket Booking System',
-            '',
         ]
     },
     sweden: {
         name: 'Sweden',
         quests: [
+            'Playground',
             'Fix the Swedish Meatball Recipe Calculator',
         ]
     },
     norway: {
         name: 'Norway',
         quests: [
+            'Playground',
             'Build a Local Cafe Website',
         ]
     },
     china: {
         name: 'China',
         quests: [
+            'Playground',
             'Create a Chinese Local E-Commerce Website',
         ]
     },
     russia: {
         name: 'Russia',
         quests: [
+            'Playground',
             'Russian Landmarks Page',
             'Russian History Quiz',
             'Create a Russian Flag',
@@ -36,26 +40,27 @@ const tasks = {
     canada: {
         name: 'Canada',
         quests: [
-            '',
+            'Playground',
         ]
     },
     usa: {
         name: 'USA',
         quests: [
+            'Playground',
             'Coffee Shop Website: Bean and Gone',
-            'Catch the Falling Stars'
+            'Catch the Falling Stars',
         ]
     },
     alaska: {
         name: 'Alaska',
         quests: [
-            '',
+            'Playground',
         ]
     },
     mexico: {
         name: 'Mexico',
         quests: [
-            '',
+            'Playground',
         ]
     },
     // Add more countries and tasks here

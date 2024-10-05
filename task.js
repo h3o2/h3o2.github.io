@@ -4,6 +4,263 @@ const tasks = {
         name: 'Finland',
         quests: [
           {
+            title: 'Playground',
+            description: '',
+            html: `<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <!-- Basic meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Document title -->
+    <title>Web Playground | Edit and Test Your Code</title>
+    
+    <!-- Document description -->
+    <meta name="description" content="A playground for editing and previewing HTML, CSS, and JavaScript code in real time." />
+    
+    <!-- Favicon link -->
+    <link rel="icon" type="image/x-icon" href="/path/to/favicon.ico" />
+    
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="/path/to/style1.css" />
+    <link rel="stylesheet" href="/path/to/style2.css" />
+    
+    <!-- JavaScript files -->
+    <script src="/path/to/script1.js" defer></script>
+    <script src="/path/to/script2.js" defer></script>
+  </head>
+
+  <body>
+
+    <header>
+    <h1>Playground</h1>
+    </header>
+      <main>
+
+        <!-- Main content goes here -->
+
+      </main>
+    <footer>
+    <p>&copy; 2024 Your Website</p>
+    </footer>
+
+  </body>
+
+</html>
+`,
+            css: `/* Basic CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Set base line height and remove body margin */
+body {
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Set image, video, and iframe to be fully responsive */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Set anchor tags to inherit text color and remove underline */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default fieldset, button, and input styles */
+fieldset {
+  border: none;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove default blockquote and figure margins */
+blockquote,
+figure {
+  margin: 0;
+}
+
+/* Remove table border collapse */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+            
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+h1 {
+  color: #333;
+}
+p {
+  color: #666;
+}
+
+/*Variables for theming*/
+
+:root {
+  --bg-light: #f2f2f2;
+  --bg-dark: #34495e;
+  --text-light: #333;
+  --text-dark: #fff;
+}
+
+/* Light theme styles (set html-tag's class to "light") */
+.light {
+  h1, p {
+    color: var(--text-light);
+  }
+  body {
+    background-color: var(--bg-light);
+  }
+}
+
+/* Dark theme styles (set html-tag's class to "dark") */
+.dark {
+  h1, p {
+    color: var(--text-dark);
+  }
+  body {
+    background-color: var(--bg-dark);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 8px;
+  }
+}
+`,
+            js: `// Basic JavaScript Template
+
+// 1. DOM Manipulation Example
+document.addEventListener('DOMContentLoaded', function() {
+  // Select an element
+  const titleElement = document.querySelector('h1');
+
+  // Change content dynamically
+  titleElement.textContent = 'Welcome to the Playground!';
+
+  // Create a new paragraph to show that DOM is loaded
+  const loadedMessage = document.createElement('p');
+  loadedMessage.textContent = 'The DOM is fully loaded and ready.';
+  document.body.appendChild(loadedMessage);
+});
+
+// 2. Event Handling Example
+const button = document.querySelector('#myButton');
+button.addEventListener('click', function() {
+  // Create and display a message when button is clicked
+  const message = document.createElement('p');
+  message.textContent = 'Button was clicked!';
+  document.body.appendChild(message);
+});
+
+// 3. Basic Function Example
+function calculateSum(a, b) {
+  return a + b;
+}
+
+// 4. Object Example
+const user = {
+  name: 'John Doe',
+  age: 25,
+  greet: function() {
+    // Create and display a greeting in the DOM
+    const greetingMessage = document.createElement('p');
+    greetingMessage.textContent = 'Hello, ' + this.name;
+    document.body.appendChild(greetingMessage);
+  }
+};
+
+// Using the object
+user.greet();  // Displays: Hello, John Doe
+
+// 5. Array Example
+const fruits = ['Apple', 'Banana', 'Mango'];
+fruits.push('Orange'); // Add new item
+
+// Display the fruits array in the DOM
+const fruitsList = document.createElement('ul');
+fruits.forEach(function(fruit) {
+  const listItem = document.createElement('li');
+  listItem.textContent = fruit;
+  fruitsList.appendChild(listItem);
+});
+document.body.appendChild(fruitsList);
+
+// 6. Loop Example (already covered in the array section)
+
+// 7. Basic Condition Example
+const temperature = 20;
+const weatherMessage = document.createElement('p');
+if (temperature > 30) {
+  weatherMessage.textContent = 'It\'s hot outside';
+} else {
+  weatherMessage.textContent = 'It\'s a nice day';
+}
+document.body.appendChild(weatherMessage);
+
+// 8. Fetch API Example (Async/Await)
+async function fetchData() {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+    const data = await response.json();
+
+    // Create and display data from the fetch API
+    const fetchedDataTitle = document.createElement('h2');
+    fetchedDataTitle.textContent = 'Fetched Data:';
+    document.body.appendChild(fetchedDataTitle);
+
+    const dataList = document.createElement('ul');
+    data.slice(0, 5).forEach(function(post) {  // Display only first 5 posts
+      const postItem = document.createElement('li');
+      postItem.textContent = post.title;
+      dataList.appendChild(postItem);
+    });
+    document.body.appendChild(dataList);
+
+  } catch (error) {
+    const errorMessage = document.createElement('p');
+    errorMessage.textContent = 'Error fetching data';
+    document.body.appendChild(errorMessage);
+  }
+}
+
+// Trigger fetch function (uncomment to use)
+// fetchData();
+`
+          },
+          {
             title: 'Fix the Finnish Railway Ticket Booking System',
             description: 'The railway ticket booking system is almost complete, but there are some errors in the code that break its functionality. Can you spot and fix them? Use the comments as hints to help you debug.',
             html: `<div class="ticket-booking">
@@ -1236,5 +1493,41 @@ document.getElementById('view-toggl').addEventListener('click', function() {
   } else {
     document.getElementById('editor-container').style.display = 'flex';
     document.getElementById('view-toggl').innerHTML = 'Full width';
+  }
+});
+
+document.getElementById('theming').addEventListener('click', function() {
+  if(document.getElementById('theming').innerHTML == 'Dark theme') {
+    document.getElementById('bodya').style.background = 'black';
+    document.getElementById('task-title').style.color = 'white';
+    document.getElementById('task-description').style.color = 'white';
+    document.getElementById('fix-text').style.color = 'white';
+    document.getElementById('html-text').style.color = 'white';
+    document.getElementById('css-text').style.color = 'white';
+    document.getElementById('js-text').style.color = 'white';
+    document.getElementById('live-text').style.color = 'white';
+    document.getElementById('html-editor').style.background = 'black';
+    document.getElementById('css-editor').style.background = 'black';
+    document.getElementById('js-editor').style.background = 'black';
+    document.getElementById('html-editor').style.color = 'white';
+    document.getElementById('css-editor').style.color = 'white';
+    document.getElementById('js-editor').style.color = 'white';
+    document.getElementById('theming').innerHTML = 'Light theme';
+  } else {
+    document.getElementById('bodya').style.background = 'initial';
+    document.getElementById('task-title').style.color = 'initial';
+    document.getElementById('task-description').style.color = 'initial';
+    document.getElementById('fix-text').style.color = 'initial';
+    document.getElementById('html-text').style.color = 'initial';
+    document.getElementById('css-text').style.color = 'initial';
+    document.getElementById('js-text').style.color = 'initial';
+    document.getElementById('live-text').style.color = 'initial';
+    document.getElementById('html-editor').style.background = 'initial';
+    document.getElementById('css-editor').style.background = 'initial';
+    document.getElementById('js-editor').style.background = 'initial';
+    document.getElementById('html-editor').style.color = 'initial';
+    document.getElementById('css-editor').style.color = 'initial';
+    document.getElementById('js-editor').style.color = 'initial';
+    document.getElementById('theming').innerHTML = 'Dark theme';
   }
 });

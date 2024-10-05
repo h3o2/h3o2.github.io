@@ -532,7 +532,7 @@ textarea.monobox {
 
 button.mainBtn {
     padding: 10px 20px;
-    margin-right: 10px;
+    margin: 5px 10px 5px 5px;
     background-color: #4CAF50;
     color: white;
     border: none;

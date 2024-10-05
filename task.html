@@ -6,28 +6,28 @@
     <title>Task Challenge</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="boody">
+  <body class="boody" id="bodya">
     <div id="navbar"></div>
     <h1 id="task-title" class="hoo1" style="text-align: center;">Task Title</h1>
     <p id="task-description" style="text-align: center;">Task description goes here...</p>
 
     <div class="task-editor">
-      <h2 style="text-align: center;">Fix the Code</h2>
+      <h2 id="fix-text" style="text-align: center;">Fix the Code</h2>
 
       <!-- The text areas for HTML, CSS, and JavaScript go here -->
       <div class="editor-container" id="editor-container">
         <div class="editor">
-          <h3 class="taskEditTitle" style="text-align: center;"><button id="html-edit" class="togBtn">Show</button>HTML</h3>
+          <h3 class="taskEditTitle" id="html-text" style="text-align: center;"><button id="html-edit" class="togBtn mainBtn">Show</button>HTML</h3>
           <textarea class="monobox" id="html-editor" rows="10" spellcheck="false"></textarea>
         </div>
 
         <div class="editor">
-          <h3 class="taskEditTitle" style="text-align: center;"><button id="css-edit" class="togBtn">Show</button>CSS</h3>
+          <h3 class="taskEditTitle" id="css-text" style="text-align: center;"><button id="css-edit" class="togBtn mainBtn">Show</button>CSS</h3>
           <textarea class="monobox" id="css-editor" rows="10" spellcheck="false"></textarea>
         </div>
 
         <div class="editor">
-            <h3 class="taskEditTitle" style="text-align: center;"><button id="js-edit" class="togBtn">Show</button>JavaScript</h3>
+            <h3 class="taskEditTitle" id="js-text" style="text-align: center;"><button id="js-edit" class="togBtn mainBtn">Show</button>JavaScript</h3>
           <textarea class="monobox" id="js-editor" rows="10" spellcheck="false"></textarea>
         </div>
       </div>
@@ -38,10 +38,11 @@
         <a href="/world.html"><button class="mainBtn" id="return-to-map">Return to map</button></a>
         <button class="mainBtn" id="mobile-preview">Mobile Preview</button>
         <button class="mainBtn" id="view-toggl">Full width</button>
+        <button class="mainBtn" id="theming">Dark theme</button>
       </div>
 
       <div class="preview-container">
-        <h3 style="text-align: center;">Live Preview</h3>
+        <h3 id="live-text" style="text-align: center;">Live Preview</h3>
         <div style="text-align: center;">
           <iframe id="preview-frame" "></iframe>
         </div>
